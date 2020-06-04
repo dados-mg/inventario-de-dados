@@ -1,8 +1,0 @@
-id_tipo_licitacao;cd_tipo_licitacao;nome
-1;1;"MENOR PREÇO"
-2;2;"MELHOR TÉCNICA"
-3;3;"TÉCNICA E PREÇO"
-4;-1;"NÃO INFORMADO"
-5;-2;"INVÁLIDO"
-6;-3;"NÃO SE APLICA"
-7;-4;"INEXISTENTE"

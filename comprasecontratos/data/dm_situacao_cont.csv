@@ -1,9 +1,0 @@
-id_situacao_cont;cd_situacao_cont;nome
-1;2;"VIGENTE PUBLICADO"
-2;3;"VENCIDO"
-3;4;"RESCINDIDO"
-4;5;"ENCERRADO"
-5;-1;"NÃO INFORMADO"
-6;-2;"INVÁLIDO"
-7;-3;"NÃO SE APLICA"
-8;-4;"INEXISTENTE"
