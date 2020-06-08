@@ -419,7 +419,7 @@
           }
         ]
       }
-    }
+    },
     {
       "name": "remuneracao-202003",
       "path": "https://raw.githubusercontent.com/dados-mg/inventario-de-dados/master/remunera%C3%A7%C3%A3o/remuneracao_03_20.csv",
@@ -606,7 +606,7 @@
           }
         ]
       }
-    }
+    },
     {
       "name": "remuneracao-202004",
       "path": "https://raw.githubusercontent.com/dados-mg/inventario-de-dados/master/remunera%C3%A7%C3%A3o/remuneracao_04_20.csv",
