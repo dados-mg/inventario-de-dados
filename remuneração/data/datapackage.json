@@ -6,8 +6,6 @@
       "path": "https://raw.githubusercontent.com/dados-mg/inventario-de-dados/master/remunera%C3%A7%C3%A3o/Servidores_01_20.csv",
       "profile": "tabular-data-resource",
       "resource type": "text/csv",
-      "created": "20200603",
-      "last modified": "20200604",
       "schema": {
         "fields": [
           {
@@ -238,8 +236,6 @@
       "path": "https://raw.githubusercontent.com/dados-mg/inventario-de-dados/master/remunera%C3%A7%C3%A3o/Servidores_02_20.csv",
       "profile": "tabular-data-resource",
       "resource type": "text/csv",
-      "created": "20200603",
-      "last modified": "20200604",
       "schema": {
         "fields": [
           {
@@ -425,8 +421,6 @@
       "path": "https://raw.githubusercontent.com/dados-mg/inventario-de-dados/master/remunera%C3%A7%C3%A3o/remuneracao_03_20.csv",
       "profile": "tabular-data-resource",
       "resource type": "text/csv",
-      "created": "20200604",
-      "last modified": "20200604",
       "schema": {
         "fields": [
           {
@@ -612,8 +606,6 @@
       "path": "https://raw.githubusercontent.com/dados-mg/inventario-de-dados/master/remunera%C3%A7%C3%A3o/remuneracao_04_20.csv",
       "profile": "tabular-data-resource",
       "resource type": "text/csv",
-      "created": "20200604",
-      "last modified": "20200604",
       "schema": {
         "fields": [
           {
@@ -817,11 +809,10 @@
   "name": "remuneracao",
   "title": "Remuneração",
   "description": "Nessa seção são divulgados os dados de pessoal do Poder Executivo do Estado de Minas Gerais, conforme entendimentos do Supremo Tribunal Federal sobre a Lei Federal nº 12.527/2012 - Lei de Acesso à Informação -, Decreto nº 45.969/2012 e Resolução Conjunta SEPLAG/CGE nº 8676, de 30 de julho de 2012.",
-  "homepage": "https://github.com/dados-mg/inventario-de-dados/tree/master/remunera%C3%A7%C3%A3o",
+  "homepage": "https://github.com/dados-mg/inventario-de-dados/tree/draft/remunera%C3%A7%C3%A3o",
   "private": "false",
   "state": "active",
-  "created": "20200603",
-  "last modified": "20200604",
+  "commit": ""
   "contributors": [
     {
       "title": "Diretoria de Transparência Ativa",
