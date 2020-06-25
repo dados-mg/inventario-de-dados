@@ -3,8 +3,8 @@
    "chave-ckan": "title",
    "chave-US": "title",
    "categoria-US": "Always",
-   "chave-federal": " T�tulo",
-   "categoria-federal": "obrigat�rios",
+   "chave-federal": " Título",
+   "categoria-federal": "obrigatórios",
    "abrangencia-federal": "dataset",
    "conceito-federal": " Nome do conjunto de dados"
  },
@@ -12,44 +12,44 @@
    "chave-ckan": "notes",
    "chave-US": "description",
    "categoria-US": "Always",
-   "chave-federal": " Descri��o",
-   "categoria-federal": "obrigat�rios",
+   "chave-federal": " Descrição",
+   "categoria-federal": "obrigatórios",
    "abrangencia-federal": "dataset",
-   "conceito-federal": " Uma breve explica��o sobre os dados"
+   "conceito-federal": " Uma breve explicação sobre os dados"
  },
  {
    "chave-ckan": "-",
    "chave-US": "landingPage",
    "categoria-US": "no",
-   "chave-federal": " Cat�logo origem",
-   "categoria-federal": "obrigat�rios",
+   "chave-federal": " Catálogo origem",
+   "categoria-federal": "obrigatórios",
    "abrangencia-federal": "dataset",
-   "conceito-federal": " P�gina (URL) do �rg�o onde est� publicado o conjunto de dados"
+   "conceito-federal": " Página (URL) do órgão onde está publicado o conjunto de dados"
  },
  {
    "chave-ckan": "maintainer",
    "chave-US": "publisher",
    "categoria-US": "Always",
-   "chave-federal": " �rg�o respons�vel",
-   "categoria-federal": "obrigat�rios",
+   "chave-federal": " Órgão responsável",
+   "categoria-federal": "obrigatórios",
    "abrangencia-federal": "dataset",
-   "conceito-federal": " Nome e sigla do �rg�o ou entidade respons�vel pela publica��o do conjunto de dados"
+   "conceito-federal": " Nome e sigla do órgão ou entidade responsável pela publicação do conjunto de dados"
  },
  {
    "chave-ckan": "-",
    "chave-US": "-",
    "categoria-US": "-",
    "chave-federal": " Categorias no VCGE",
-   "categoria-federal": "obrigat�rios",
+   "categoria-federal": "obrigatórios",
    "abrangencia-federal": "dataset",
-   "conceito-federal": " O Vocabul�rio Controlado de Governo Eletr�nico � uma lista hierarquizada de assuntos do governo que utiliza termos comuns e � voltada para a sociedade"
+   "conceito-federal": " O Vocabulário Controlado de Governo Eletrônico é uma lista hierarquizada de assuntos do governo que utiliza termos comuns e é voltada para a sociedade"
  },
  {
    "chave-ckan": "URL",
    "chave-US": "identifier",
    "categoria-US": "Always",
    "chave-federal": " Identificador",
-   "categoria-federal": "obrigat�rios",
+   "categoria-federal": "obrigatórios",
    "abrangencia-federal": "recursos",
    "conceito-federal": " URL persistente que aponta para o recurso na Web"
  },
@@ -57,8 +57,8 @@
    "chave-ckan": "name",
    "chave-US": "-",
    "categoria-US": "-",
-   "chave-federal": " T�tulo",
-   "categoria-federal": "obrigat�rios",
+   "chave-federal": " Título",
+   "categoria-federal": "obrigatórios",
    "abrangencia-federal": "recursos",
    "conceito-federal": " Nome do recurso"
  },
@@ -67,7 +67,7 @@
    "chave-US": "-",
    "categoria-US": "-",
    "chave-federal": " Formato",
-   "categoria-federal": "obrigat�rios",
+   "categoria-federal": "obrigatórios",
    "abrangencia-federal": "recursos",
    "conceito-federal": " Formato do recurso"
  },
@@ -75,13 +75,13 @@
    "chave-ckan": "description",
    "chave-US": "-",
    "categoria-US": "-",
-   "chave-federal": " Descri��o",
-   "categoria-federal": "obrigat�rios",
+   "chave-federal": " Descrição",
+   "categoria-federal": "obrigatórios",
    "abrangencia-federal": "recursos",
-   "conceito-federal": " Breve detalhamento sobre o conte�do do recurso"
+   "conceito-federal": " Breve detalhamento sobre o conteúdo do recurso"
  },
  {
-   "chave-ckan": "issue data atualiza��o autom�tica",
+   "chave-ckan": "issue data atualização automática",
    "chave-US": "modified",
    "categoria-US": "always",
    "chave-federal": "n/a",
@@ -94,102 +94,102 @@
    "chave-US": "keyword",
    "categoria-US": "Always",
    "chave-federal": " Etiquetas",
-   "categoria-federal": "desej�veis",
+   "categoria-federal": "desejáveis",
    "abrangencia-federal": "dataset",
-   "conceito-federal": " Lista de palavras chaves relacionadas ao conjunto de dados, e que s�o �teis na classifica��o e busca dele"
+   "conceito-federal": " Lista de palavras chaves relacionadas ao conjunto de dados, e que são úteis na classificação e busca dele"
  },
  {
    "chave-ckan": "author (Dataset)",
    "chave-US": "contactpoint",
    "categoria-US": "Always",
    "chave-federal": " Autoria",
-   "categoria-federal": "desej�veis",
+   "categoria-federal": "desejáveis",
    "abrangencia-federal": "recursos",
-   "conceito-federal": " Institui��o ou pessoa respons�vel pela produ��o do recurso"
+   "conceito-federal": " Instituição ou pessoa responsável pela produção do recurso"
  },
  {
    "chave-ckan": "(extra)",
    "chave-US": "references",
    "categoria-US": "no",
-   "chave-federal": " Documenta��o",
-   "categoria-federal": "desej�veis",
+   "chave-federal": " Documentação",
+   "categoria-federal": "desejáveis",
    "abrangencia-federal": "dataset",
-   "conceito-federal": " URL de documento que exp�e detalhes sobre o conjunto de dados"
+   "conceito-federal": " URL de documento que expõe detalhes sobre o conjunto de dados"
  },
  {
    "chave-ckan": "(extra)",
    "chave-US": "spatial",
    "categoria-US": "If-Applicable",
-   "chave-federal": " Cobertura�geogr�fica",
-   "categoria-federal": "desej�veis",
+   "chave-federal": " Cobertura geográfica",
+   "categoria-federal": "desejáveis",
    "abrangencia-federal": "recursos",
-   "conceito-federal": " Localiza��o ou regi�o geogr�fica a que se referem os dados"
+   "conceito-federal": " Localização ou região geográfica a que se referem os dados"
  },
  {
    "chave-ckan": "(extra)",
    "chave-US": "temporal",
    "categoria-US": "If-Applicable",
-   "chave-federal": " Cobertura�temporal",
-   "categoria-federal": "desej�veis",
+   "chave-federal": " Cobertura temporal",
+   "categoria-federal": "desejáveis",
    "abrangencia-federal": "recursos",
-   "conceito-federal": " Data ou per�odo � que referem os dados"
+   "conceito-federal": " Data ou período à que referem os dados"
  },
  {
    "chave-ckan": "(extra)",
    "chave-US": "-",
    "categoria-US": "-",
-   "chave-federal": " Granularidade�geogr�fica",
-   "categoria-federal": "desej�veis",
+   "chave-federal": " Granularidade geográfica",
+   "categoria-federal": "desejáveis",
    "abrangencia-federal": "recursos",
-   "conceito-federal": " Precis�o geogr�fica da cobertura geogr�fica"
+   "conceito-federal": " Precisão geográfica da cobertura geográfica"
  },
  {
    "chave-ckan": "(extra)",
    "chave-US": "-",
    "categoria-US": "-",
-   "chave-federal": " Granularidade�temporal",
-   "categoria-federal": "desej�veis",
+   "chave-federal": " Granularidade temporal",
+   "categoria-federal": "desejáveis",
    "abrangencia-federal": "dataset",
-   "conceito-federal": " Precis�o temporal da cobertura temporal"
+   "conceito-federal": " Precisão temporal da cobertura temporal"
  },
  {
    "chave-ckan": "(extra)",
    "chave-US": "accrualPeriodicity",
    "categoria-US": "no",
-   "chave-federal": " Frequ�ncia�de�atualiza��o",
-   "categoria-federal": "desej�veis",
+   "chave-federal": " Frequência de atualização",
+   "categoria-federal": "desejáveis",
    "abrangencia-federal": "dataset",
-   "conceito-federal": " Frequ�ncia temporal com que o conjunto de dados � atualizado"
+   "conceito-federal": " Frequência temporal com que o conjunto de dados é atualizado"
  },
  {
    "chave-ckan": "item relacionado",
    "chave-US": "-",
    "categoria-US": "-",
-   "chave-federal": " Refer�ncias",
-   "categoria-federal": "desej�veis",
+   "chave-federal": " Referências",
+   "categoria-federal": "desejáveis",
    "abrangencia-federal": "dataset",
-   "conceito-federal": " Rela��es com outros conjuntos de dados"
+   "conceito-federal": " Relações com outros conjuntos de dados"
  },
  {
    "chave-ckan": "(extra)",
    "chave-US": "references",
    "categoria-US": "no",
    "chave-federal": " Metodologia",
-   "categoria-federal": "desej�veis",
+   "categoria-federal": "desejáveis",
    "abrangencia-federal": "recursos",
-   "conceito-federal": " Processo de cria��o dos dados"
+   "conceito-federal": " Processo de criação dos dados"
  },
  {
    "chave-ckan": "",
    "chave-US": "-",
    "categoria-US": "-",
-   "chave-federal": " Vocabul�rio/ontologia",
-   "categoria-federal": "desej�veis",
+   "chave-federal": " Vocabulário/ontologia",
+   "categoria-federal": "desejáveis",
    "abrangencia-federal": "dataset",
-   "conceito-federal": " Documentos estruturados com metadados espec�ficos do conjunto de dados"
+   "conceito-federal": " Documentos estruturados com metadados específicos do conjunto de dados"
  },
  {
-   "chave-ckan": "owner_org�",
+   "chave-ckan": "owner_org ",
    "chave-US": "isPartOf",
    "categoria-US": "no",
    "chave-federal": "n/a",
@@ -198,7 +198,7 @@
    "conceito-federal": "n/a"
  },
  {
-   "chave-ckan": "groups�",
+   "chave-ckan": "groups ",
    "chave-US": "theme",
    "categoria-US": "no",
    "chave-federal": "n/a",
