@@ -1,0 +1,232 @@
+[
+ {
+   "chave-federal": " Título",
+   "categoria-federal": "obrigatórios",
+   "abrangencia-federal": "dataset",
+   "conceito-federal": " Nome do conjunto de dados",
+   "chave-ckan": "title",
+   "chave-frictionless": "title",
+   "chave-US": "title",
+   "categoria-US": "Always"
+ },
+ {
+   "chave-federal": " Descrição",
+   "categoria-federal": "obrigatórios",
+   "abrangencia-federal": "dataset",
+   "conceito-federal": " Uma breve explicação sobre os dados",
+   "chave-ckan": "notes",
+   "chave-frictionless": "description",
+   "chave-US": "description",
+   "categoria-US": "Always"
+ },
+ {
+   "chave-federal": " Catálogo origem",
+   "categoria-federal": "obrigatórios",
+   "abrangencia-federal": "dataset",
+   "conceito-federal": " Página (URL) do órgão onde está publicado o conjunto de dados",
+   "chave-ckan": "-",
+   "chave-frictionless": "homepage",
+   "chave-US": "landingPage",
+   "categoria-US": "no"
+ },
+ {
+   "chave-federal": " Órgão responsável",
+   "categoria-federal": "obrigatórios",
+   "abrangencia-federal": "dataset",
+   "conceito-federal": " Nome e sigla do órgão ou entidade responsável pela publicação do conjunto de dados",
+   "chave-ckan": "maintainer",
+   "chave-frictionless": "-",
+   "chave-US": "publisher",
+   "categoria-US": "Always"
+ },
+ {
+   "chave-federal": " Categorias no VCGE",
+   "categoria-federal": "obrigatórios",
+   "abrangencia-federal": "dataset",
+   "conceito-federal": " O Vocabulário Controlado de Governo Eletrônico é uma lista hierarquizada de assuntos do governo que utiliza termos comuns e é voltada para a sociedade",
+   "chave-ckan": "-",
+   "chave-frictionless": "-",
+   "chave-US": "-",
+   "categoria-US": "-"
+ },
+ {
+   "chave-federal": " Identificador",
+   "categoria-federal": "obrigatórios",
+   "abrangencia-federal": "recursos",
+   "conceito-federal": " URL persistente que aponta para o recurso na Web",
+   "chave-ckan": "URL",
+   "chave-frictionless": "path",
+   "chave-US": "identifier",
+   "categoria-US": "Always"
+ },
+ {
+   "chave-federal": " Título",
+   "categoria-federal": "obrigatórios",
+   "abrangencia-federal": "recursos",
+   "conceito-federal": " Nome do recurso",
+   "chave-ckan": "name",
+   "chave-frictionless": "name",
+   "chave-US": "-",
+   "categoria-US": "-"
+ },
+ {
+   "chave-federal": " Formato",
+   "categoria-federal": "obrigatórios",
+   "abrangencia-federal": "recursos",
+   "conceito-federal": " Formato do recurso",
+   "chave-ckan": "format",
+   "chave-frictionless": "-",
+   "chave-US": "-",
+   "categoria-US": "-"
+ },
+ {
+   "chave-federal": " Descrição",
+   "categoria-federal": "obrigatórios",
+   "abrangencia-federal": "recursos",
+   "conceito-federal": " Breve detalhamento sobre o conteúdo do recurso",
+   "chave-ckan": "description",
+   "chave-frictionless": "-",
+   "chave-US": "-",
+   "categoria-US": "-"
+ },
+ {
+   "chave-federal": "n/a",
+   "categoria-federal": "n/a",
+   "abrangencia-federal": "n/a",
+   "conceito-federal": "n/a",
+   "chave-ckan": "issue data atualização automática",
+   "chave-frictionless": "-",
+   "chave-US": "modified",
+   "categoria-US": "always"
+ },
+ {
+   "chave-federal": " Etiquetas",
+   "categoria-federal": "desejáveis",
+   "abrangencia-federal": "dataset",
+   "conceito-federal": " Lista de palavras chaves relacionadas ao conjunto de dados, e que são úteis na classificação e busca dele",
+   "chave-ckan": "tags",
+   "chave-frictionless": "keywords",
+   "chave-US": "keyword",
+   "categoria-US": "Always"
+ },
+ {
+   "chave-federal": " Autoria",
+   "categoria-federal": "desejáveis",
+   "abrangencia-federal": "recursos",
+   "conceito-federal": " Instituição ou pessoa responsável pela produção do recurso",
+   "chave-ckan": "author (Dataset)",
+   "chave-frictionless": "author",
+   "chave-US": "contactpoint",
+   "categoria-US": "Always"
+ },
+ {
+   "chave-federal": " Documentação",
+   "categoria-federal": "desejáveis",
+   "abrangencia-federal": "dataset",
+   "conceito-federal": " URL de documento que expõe detalhes sobre o conjunto de dados",
+   "chave-ckan": "(extra)",
+   "chave-frictionless": "-",
+   "chave-US": "references",
+   "categoria-US": "no"
+ },
+ {
+   "chave-federal": " Cobertura geográfica",
+   "categoria-federal": "desejáveis",
+   "abrangencia-federal": "recursos",
+   "conceito-federal": " Localização ou região geográfica a que se referem os dados",
+   "chave-ckan": "(extra)",
+   "chave-frictionless": "-",
+   "chave-US": "spatial",
+   "categoria-US": "If-Applicable"
+ },
+ {
+   "chave-federal": " Cobertura temporal",
+   "categoria-federal": "desejáveis",
+   "abrangencia-federal": "recursos",
+   "conceito-federal": " Data ou período à que referem os dados",
+   "chave-ckan": "(extra)",
+   "chave-frictionless": "-",
+   "chave-US": "temporal",
+   "categoria-US": "If-Applicable"
+ },
+ {
+   "chave-federal": " Granularidade geográfica",
+   "categoria-federal": "desejáveis",
+   "abrangencia-federal": "recursos",
+   "conceito-federal": " Precisão geográfica da cobertura geográfica",
+   "chave-ckan": "(extra)",
+   "chave-frictionless": "-",
+   "chave-US": "-",
+   "categoria-US": "-"
+ },
+ {
+   "chave-federal": " Granularidade temporal",
+   "categoria-federal": "desejáveis",
+   "abrangencia-federal": "dataset",
+   "conceito-federal": " Precisão temporal da cobertura temporal",
+   "chave-ckan": "(extra)",
+   "chave-frictionless": "-",
+   "chave-US": "-",
+   "categoria-US": "-"
+ },
+ {
+   "chave-federal": " Frequência de atualização",
+   "categoria-federal": "desejáveis",
+   "abrangencia-federal": "dataset",
+   "conceito-federal": " Frequência temporal com que o conjunto de dados é atualizado",
+   "chave-ckan": "(extra)",
+   "chave-frictionless": "-",
+   "chave-US": "accrualPeriodicity",
+   "categoria-US": "no"
+ },
+ {
+   "chave-federal": " Referências",
+   "categoria-federal": "desejáveis",
+   "abrangencia-federal": "dataset",
+   "conceito-federal": " Relações com outros conjuntos de dados",
+   "chave-ckan": "item relacionado",
+   "chave-frictionless": "-",
+   "chave-US": "-",
+   "categoria-US": "-"
+ },
+ {
+   "chave-federal": " Metodologia",
+   "categoria-federal": "desejáveis",
+   "abrangencia-federal": "recursos",
+   "conceito-federal": " Processo de criação dos dados",
+   "chave-ckan": "(extra)",
+   "chave-frictionless": "-",
+   "chave-US": "references",
+   "categoria-US": "no"
+ },
+ {
+   "chave-federal": " Vocabulário/ontologia",
+   "categoria-federal": "desejáveis",
+   "abrangencia-federal": "dataset",
+   "conceito-federal": " Documentos estruturados com metadados específicos do conjunto de dados",
+   "chave-ckan": "",
+   "chave-frictionless": "-",
+   "chave-US": "-",
+   "categoria-US": "-"
+ },
+ {
+   "chave-federal": "n/a",
+   "categoria-federal": "n/a",
+   "abrangencia-federal": "n/a",
+   "conceito-federal": "n/a",
+   "chave-ckan": "owner_org ",
+   "chave-frictionless": "n/a",
+   "chave-US": "isPartOf",
+   "categoria-US": "no"
+ },
+ {
+   "chave-federal": "n/a",
+   "categoria-federal": "n/a",
+   "abrangencia-federal": "n/a",
+   "conceito-federal": "n/a",
+   "chave-ckan": "groups ",
+   "chave-frictionless": "n/a",
+   "chave-US": "theme",
+   "categoria-US": "no"
+ }
+]
