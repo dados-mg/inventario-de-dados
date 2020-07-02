@@ -45,7 +45,7 @@ Compreende criação, obtenção, transformação, consolidação, tratamento e 
 
 [^] Possibilidade de aproveitamento das iniciativas do mapeamento para adequação dos órgãos à LGPD
 
-[^] [Mapa de informações]() como exemplo de representação visual de encadeamento entre instâncias/fases da coleta e uso dos dados
+[^] [Mapa de informações](http://mapadainformacao.com.br/) como exemplo de representação visual de encadeamento entre instâncias/fases da coleta e uso dos dados
 
 #### 4.2. Documentação descritiva dos dados
 
