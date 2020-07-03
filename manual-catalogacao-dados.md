@@ -74,6 +74,8 @@ Ano não é informação para constar no nome do dataset
 
 Partículas (artigos, preposições) e VERBOS são dispensáveis nos nomes dos datasets e recursos
 
+* Vide [html id](https://pandoc.org/MANUAL.html#extension-auto_identifiers) e [slug](https://slugify.online/)
+
 Fazer analogias para padronizar com as nomenclaturas utilizadas nos títulos das seções do [Guia do Menu Transparência](https://transparencia-mg.github.io/guia-transparencia-ativa/v0/)
 
 Nome legível por máquina (name) = gerado a partir do nome legível humanamente (title), substituindo espaços por hífens e eliminando acentos e cedilha
@@ -86,6 +88,9 @@ Nome legível por máquina (name) = gerado a partir do nome legível humanamente
 #### 5.2. Especificação dos metadados a partir do arquivo datapackage.json
 
 https://raw.githubusercontent.com/dados-mg/inventario-de-dados/draft/depara-metadados-0.1.json
+
+    
+
 
 
 
