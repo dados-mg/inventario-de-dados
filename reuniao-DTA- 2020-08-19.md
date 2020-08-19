@@ -32,7 +32,7 @@
 
 * metadados: descrição do que seria para ter no conteúdo; no desenho/concepção, não haveria nenhuma dependência da DTA
 
-	* csv dialect, propriedades específicas de cada variável (valores zerados e separador de decimais)
+	* csv dialect, propriedades específicas de cada variável (valores zerados e separador de decimais): além do pacote inicial contido no datapackage creator - como incluir?
 
 #### papeis e funções das áreas: ouvir como é a experiência da classificação de sigilo e da elaboração dos planos de integridade dos órgãos
 
