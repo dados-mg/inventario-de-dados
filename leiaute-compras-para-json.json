@@ -1,0 +1,1429 @@
+[
+{
+  "profile": "tabular-data-resource",
+  "name": "DM_ACAO",
+  "path": "data/dm-acao.csv",
+  "title": "DM_ACAO",
+  "description": "",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "schema": {
+  "fields": [
+   {
+   "name": "ID_ACAO",
+   "type": "number",
+   "title": "ID da ação",
+   "description": "Código que relaciona os dados com a tabela FT_DESPESA"
+   },
+   {
+   "name": "ANO_EXERCICIO",
+   "type": "number",
+   "title": "Ano de Exercício",
+   "description": "Ano de exercício dos dados"
+   },
+   {
+   "name": "CD_ACAO",
+   "type": "number",
+   "title": "Código da Ação",
+   "description": "Código da Ação"
+   },
+   {
+   "name": "NOME",
+   "type": "string",
+   "title": "Nome da Ação",
+   "description": "Indicação de existência de nível inferior."
+   }
+  ]
+ }
+},
+{
+  "profile": "tabular-data-resource",
+  "name": "DM_CLASSE_MATSERV",
+  "path": "data/dm-classe-matserv.csv",
+  "title": "DM_CLASSE_MATSERV",
+  "description": "",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "schema": {
+  "fields": [
+   {
+   "name": "ID_CLASSE_MATSERV",
+   "type": "number",
+   "title": "ID da Classe do Material ou Serviço",
+   "description": ""
+   },
+   {
+   "name": "CD_CLASSE_MATSERV",
+   "type": "number",
+   "title": "Código da Classe do Material ou Serviço",
+   "description": ""
+   },
+   {
+   "name": "NOME",
+   "type": "string",
+   "title": "Nome da Classe do Material ou Serviço",
+   "description": ""
+ }
+  ]
+ }
+},
+{
+  "profile": "tabular-data-resource",
+  "name": "DM_CONTRATADO",
+  "path": "data/dm-contratado.csv",
+  "title": "DM_CONTRATADO",
+  "description": "",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "schema": {
+  "fields": [
+   {
+   "name": "ID_CONTRATADO",
+   "type": "number",
+   "title": "ID do Contratado",
+   "description": ""
+   },
+   {
+   "name": "SQA_FORNECEDOR",
+   "type": "number",
+   "title": "SQA do Fornecedor/Contratado",
+   "description": ""
+   },
+   {
+   "name": "TP_DOCUMENTO",
+   "type": "number",
+   "title": "Tipo do Documento do Contratado",
+   "description": ""
+   },
+   {
+   "name": "NR_DOCUMENTO",
+   "type": "number",
+   "title": "Número do Documento do Contratado",
+   "description": ""
+   },
+   {
+   "name": "NOME",
+   "type": "string",
+   "title": "Nome do Contratado",
+   "description": ""
+ }
+  ]
+ }
+},
+{
+  "profile": "tabular-data-resource",
+  "name": "DM_CONTRATO",
+  "path": "data/dm-contrato.csv",
+  "title": "DM_CONTRATO",
+  "description": "",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "schema": {
+  "fields": [
+   {
+   "name": "ID_CONTRATO",
+   "type": "number",
+   "title": "ID do Contrato",
+   "description": ""
+   },
+   {
+   "name": "SQA_CONTRATO",
+   "type": "number",
+   "title": "SQA do Contrato",
+   "description": ""
+    },
+   {
+   "name": "NR_CONTRATO",
+   "type": "number",
+   "title": "Número do Contrato",
+   "description": ""
+   },
+   { 
+   "name": "URL_CONTRATO",
+   "type": "string",
+   "title": "URL do Contrato ",
+   "description": ""
+   },
+   { 
+   "name": "OBJETO",
+   "type": "string",
+   "title": "Objeto do Contrato",
+   "description": ""
+   },
+   { 
+   "name": "SITUACAO",
+   "type": "string",
+   "title": "Situação do Contrato",
+   "description": ""
+   },
+   { 
+   "name": "TIPO",
+   "type": "string",
+   "title": "Tipo do Contrato",
+   "description": ""
+   },
+   { 
+   "name": "DT_PUBLICACAO",
+   "type": "date",
+   "title": "Data da publicação do contrato",
+   "description": ""
+   },
+   { 
+   "name": "DT_INICIO_VIGENCIA",
+   "type": "date",
+   "title": "Data de início da vigência do contrato",
+   "description": ""
+   },
+   { 
+   "name": "DT_FIM_VIGENCIA",
+   "type": "date",
+   "title": "Data de fim da vigência do contrato",
+   "description": ""
+   },
+   {
+   "name": "DT_FIM_VIGENCIA_ATUAL",
+   "type": "date",
+   "title": "Data de fim da vigência atualizada do contrato",
+   "description": ""
+   },
+   { 
+   "name": "VR_HOMOLOGADO",
+   "type": "number",
+   "title": "Valor homologado do contrato",
+   "description": ""
+   },
+   { 
+   "name": "VR_ATUALIZADO",
+   "type": "number",
+   "title": "Valor atualizado do contrato",
+   "description": ""
+ }
+  ]
+ }
+},
+{
+  "profile": "tabular-data-resource",
+  "name": "DM_ELEMENTO_DESP",
+  "path": "data/dm-elemento-desp.csv",
+  "title": "DM_ELEMENTO_DESP",
+  "description": "",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "schema": {
+  "fields": [
+   {
+   "name": "ID_ELEMENTO",
+   "type": "number",
+   "title": "ID do Elemento de despesa",
+   "description": "Código que relaciona os dados com as tabelas FT_DESPESA e FT_RESTOS_PAGAR"
+   },
+   { 
+   "name": "CD_ELEMENTO",
+   "type": "number",
+   "title": "Código do elemento de despesa",
+   "description": "Código do Elemento de Despesa"
+   },
+   {
+   "name": "NOME",
+   "type": "string",
+   "title": "Nome do elemento de despesa",
+   "description": "Nome do Elemento de Despesa"
+ }
+  ]
+ }
+},
+{
+  "profile": "tabular-data-resource",
+  "name": "DM_EMPENHO_DESP",
+  "path": "data/dm-empenho-desp.csv",
+  "title": "DM_EMPENHO_DESP",
+  "description": "",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "schema": {
+  "fields": [
+   {
+   "name": "ID_EMPENHO",
+   "type": "number",
+   "title": "ID do empenho",
+   "description": "Código que relaciona os dados com a tabela FT_DESPESA"
+   },
+   { 
+   "name": "ANO_EXERCICIO",
+   "type": "number",
+   "title": "Ano de Exercício",
+   "description": "Ano de exercício dos dados"
+   },
+   { 
+   "name": "SQA_GMIFP",
+   "type": "number",
+   "title": "SQA",
+   "description": "Código complementar para composição da chave da FT_DESPESA"
+   },
+   { 
+   "name": "SQA_CREDOR",
+   "type": "number",
+   "title": "SQA do Credor",
+   "description": "Código complementar para composição da chave da FT_DESPESA"
+   },
+   { 
+   "name": "SQA_NATUREZA",
+   "type": "number",
+   "title": "SQA da Natureza da despesa",
+   "description": "Código complementar para composição da chave da FT_DESPESA"
+   },
+   { 
+   "name": "SQA_UNIDADE_ORC",
+   "type": "number",
+   "title": "SQA da Unidade Orçamentária",
+   "description": "Código complementar para composição da chave da FT_DESPESA"
+   },
+   { 
+   "name": "SQA_PROGTRAB",
+   "type": "number",
+   "title": "SQA do Programa de Trabalho",
+   "description": "Código complementar para composição da chave da FT_DESPESA"
+   },
+   { 
+   "name": "SQA_UNIDADE_EXERC",
+   "type": "number",
+   "title": "SQA da Unidade de Exercício",
+   "description": "Código complementar para composição da chave da FT_DESPESA"
+   },
+   { 
+   "name": "SQA_EMPENHO",
+   "type": "number",
+   "title": "SQA do Empenho",
+   "description": "Código complementar para composição da chave da FT_DESPESA"
+   },
+   { 
+   "name": "NR_EMPENHO",
+   "type": "number",
+   "title": "Número do empenho",
+   "description": "Número do empenho da despesa"
+   },
+   { 
+   "name": "DT_EMPENHO",
+   "type": "date",
+   "title": "Data do empenho",
+   "description": "Data do empenho da despesa"
+   },
+   { 
+   "name": "UNIDADE_ORCAMENTARIA",
+   "type": "string",
+   "title": "Unidade orçamentária",
+   "description": "Entidade da administração direta, inclusive fundo ou órgão autônomo e da administração indireta a que o orçamento consigna dotações especificas para realização de seus programas de trabalho."
+   },
+   { 
+   "name": "UNIDADE_EXECUTORA",
+   "type": "string",
+   "title": "Unidade executora",
+   "description": "Descrição da Unidade Executora do Empenho da Despesa"
+   },
+   { 
+   "name": "FUNCAO",
+   "type": "string",
+   "title": "Função",
+   "description": "Áreas de atuação do setor público nas quais são gastos os recursos, tais como saúde, educação, administração, transportes, etc."
+   },
+   { 
+   "name": "SUBFUNCAO",
+   "type": "string",
+   "title": "Subfunção",
+   "description": "Identifica a natureza básica das ações que se aglutinam em torno das funções."
+   },
+   { 
+   "name": "PROGRAMA",
+   "type": "string",
+   "title": "Programa",
+   "description": "Conjunto de ações para atender um problema ou demanda da sociedade."
+   },
+   { 
+   "name": "ACAO",
+   "type": "string",
+   "title": "Ação",
+   "description": "Conjunto de operações das quais resulta a entrega de um produto (bem, serviço ou transferência financeira) que contribui para atender ao objetivo de um programa."
+   },
+   {
+   "name": "CATEGORIA_ECON",
+   "type": "string",
+   "title": "Categoria econômica",
+   "description": "Classificação da despesa quanto ao impacto econômico que ela gera, podendo ser corrente (funcionamento dos órgãos, pagamentos dos servidores, etc.) ou de capital (obras, equipamentos, etc.)."
+   },
+   { 
+   "name": "GRUPO_DESP",
+   "type": "string",
+   "title": "Grupo de despesa",
+   "description": "Classificação da despesa que agrega elementos de despesa quanto ao objeto do gasto (pessoal, juros, amortização da dívida, investimentos, etc.)."
+   },
+   { 
+   "name": "ELEMENTO_DESP",
+   "type": "string",
+   "title": "Elemento de despesa",
+   "description": "Classificação da despesa quanto ao objeto do gasto (diárias, material de consumo, pensões, locação de imóveis, etc.)."
+   },
+   { 
+   "name": "ITEM_DESP",
+   "type": "string",
+   "title": "Item de despesa",
+   "description": "Desdobramento do elemento de despesa (material gráfico, medicamentos, diárias, etc.)."
+   },
+   { 
+   "name": "MODALIDADE_APLIC",
+   "type": "string",
+   "title": "Modalidade de aplicação",
+   "description": "Indica se os recursos são aplicados diretamente por órgãos ou entidades no âmbito da mesma esfera de Governo ou por outro ente da Federação."
+   },
+   { 
+   "name": "TIPO_EMPENHO",
+   "type": "string",
+   "title": "Tipo de empenho",
+   "description": "Descrição do Tipo de Empenho da Despesa"
+   },
+   { 
+   "name": "FONTE_RECURSO",
+   "type": "string",
+   "title": "Fonte de recurso",
+   "description": "Origem dos recursos utilizados para realizar esta despesa."
+   },
+   { 
+   "name": "IDENTIFICADOR_ORC",
+   "type": "string",
+   "title": "Identificador orçamentário",
+   "description": "Descrição do Identificador Orçamentário do Empenho da Despesa"
+   },
+   { 
+   "name": "RAZAO_SOCIAL_CREDOR",
+   "type": "string",
+   "title": "Razão social do credor",
+   "description": "Razão Social do Credor"
+   },
+   { 
+   "name": "VR_EMPENHO",
+   "type": "number",
+   "title": "Valor do empenho",
+   "description": "Valor do empenho da despesa"
+   },
+   { 
+   "name": "DESC_HISTORICO",
+   "type": "string",
+   "title": "Descrição do histórico",
+   "description": "Descrição do Histórico do Empenho da Despesa"
+ }
+  ]
+ }
+},
+{
+  "profile": "tabular-data-resource",
+  "name": "DM_GRUPO_MATSERV",
+  "path": "data/dm-grupo-matserv.csv",
+  "title": "DM_GRUPO_MATSERV",
+  "description": "",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "schema": {
+  "fields": [
+   {
+   "name": "ID_GRUPO_MATSERV",
+   "type": "number",
+   "title": "ID Grupo Material Serviço",
+   "description": ""
+   },
+   { 
+   "name": "CD_GRUPO_MATSERV",
+   "type": "number",
+   "title": "Código do Grupo de Material ou Serviço",
+   "description": ""
+   },
+   { 
+   "name": "NOME",
+   "type": "string",
+   "title": "Nome do grupo de Material ou Serviço",
+   "description": ""
+ }
+  ]
+ }
+},
+{
+  "profile": "tabular-data-resource",
+  "name": "DM_ITEM_DESP",
+  "path": "data/dm-item-desp.csv",
+  "title": "DM_ITEM_DESP",
+  "description": "",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "schema": {
+  "fields": [
+   {
+   "name": "ID_ITEM",
+   "type": "number",
+   "title": "ID do item de despesa",
+   "description": "Código que relaciona os dados com as tabelas FT_DESPESA e FT_RESTOS_PAGAR"
+   },
+   { 
+   "name": "CD_ITEM",
+   "type": "number",
+   "title": "Código do item de despesa",
+   "description": "Código do Item de Despesa"
+   },
+   { 
+   "name": "NOME",
+   "type": "string",
+   "title": "Nome do item de despesa",
+   "description": "Nome do Item de Despesa"
+ }
+  ]
+ }
+},
+{
+  "profile": "tabular-data-resource",
+  "name": "DM_ITEM_MATSERV",
+  "path": "data/dm-item-matserv.csv",
+  "title": "DM_ITEM_MATSERV",
+  "description": "",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "schema": {
+  "fields": [
+   {
+   "name": "ID_ITEM_MATSERV",
+   "type": "number",
+   "title": "ID do item de material ou serviço",
+   "description": ""
+   },
+   { 
+   "name": "SQA_ITEM_MATSERV",
+   "type": "number",
+   "title": "SQA do item do material ou serviço",
+   "description": ""
+   },
+   { 
+   "name": "CD_ITEM_MATSERV",
+   "type": "number",
+   "title": "Código do item do material ou serviço",
+   "description": ""
+   },
+   {
+   "name": "NOME",
+   "type": "string",
+   "title": "Nome do item de material ou serviço",
+   "description": ""
+   },
+   { 
+   "name": "NATUREZA_DESPESA",
+   "type": "string",
+   "title": "Natureza da despesa",
+   "description": ""
+ }
+  ]
+ }
+},
+{
+  "profile": "tabular-data-resource",
+  "name": "DM_LINHA_FORNEC",
+  "path": "data/dm-linha-fornec.csv",
+  "title": "DM_LINHA_FORNEC",
+  "description": "",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "schema": {
+  "fields": [
+   {
+   "name": "ID_LINHA_FORNEC",
+   "type": "number",
+   "title": "ID da linha de fornecimento",
+   "description": ""
+   },
+   { 
+   "name": "SQA_LINHA_FORNEC",
+   "type": "number",
+   "title": "SQA da linha de fornecimento",
+   "description": ""
+   },
+   { 
+   "name": "CD_LINHA_FORNEC",
+   "type": "number",
+   "title": "Código da linha de fornecimento",
+   "description": ""
+   },
+   { 
+   "name": "NOME",
+   "type": "string",
+   "title": "Nome da linha de fornecimento",
+   "description": ""
+ }
+  ]
+ }
+},
+{
+  "profile": "tabular-data-resource",
+  "name": "DM_MATERIAL_SERVICO",
+  "path": "data/dm-material-serviço.csv",
+  "title": "DM_MATERIAL_SERVICO",
+  "description": "",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "schema": {
+  "fields": [
+   {
+   "name": "ID_MATERIAL_SERVICO",
+   "type": "number",
+   "title": "ID do material ou serviço",
+   "description": ""
+   },
+   { 
+   "name": "CD_MATERIAL_SERVICO",
+   "type": "number",
+   "title": "Código de material ou serviço",
+   "description": ""
+   },
+   {  
+   "name": "NOME",
+   "type": "string",
+   "title": "Nome do material ou serviço",
+   "description": ""
+ }
+  ]
+ }
+},
+{
+  "profile": "tabular-data-resource",
+  "name": "DM_MUNICIPIO",
+  "path": "data/dm-municipio.csv",
+  "title": "DM_MUNICIPIO",
+  "description": "",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "schema": {
+  "fields": [
+   {
+   "name": "ID_MUNICIPIO",
+   "type": "number",
+   "title": "ID do município",
+   "description": "Código que relaciona os dados com a tabela FT_REPASSE_MUN"
+   },
+   { 
+   "name": "CD_MUNICIPIO",
+   "type": "number",
+   "title": "Código do município",
+   "description": "Código IBGE do Município"
+   },
+   { 
+   "name": "NOME",
+   "type": "string",
+   "title": "Nome do município",
+   "description": "Nome do Município"
+ }
+  ]
+ }
+},
+{
+  "profile": "tabular-data-resource",
+  "name": "DM_SITUACAO_PROC",
+  "path": "data/dm-situacao-proce.csv",
+  "title": "DM_SITUACAO_PROC",
+  "description": "",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "schema": {
+  "fields": [
+   {
+   "resource": "DM_ORGAO_CONTRATO",
+   "name": "ID_ORGAO_CONTRATO",
+   "type": "number",
+   "title": "ID do órgão do contrato",
+   "description": ""
+ },
+ { 
+   "name": "CD_ORGAO_CONTRATO",
+   "type": "number",
+   "title": "Código do órgão do contrato",
+   "description": ""
+ },
+ { 
+   "name": "NOME",
+   "type": "string",
+   "title": "Nome do órgão do contrato",
+   "description": ""
+ }
+  ]
+ }
+},
+{
+  "profile": "tabular-data-resource",
+  "name": "DM_SITUACAO_PROC",
+  "path": "data/dm-situacao-proce.csv",
+  "title": "DM_SITUACAO_PROC",
+  "description": "",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "schema": {
+  "fields": [
+   {
+   "resource": "DM_ORGAO_DEMANDA",
+   "name": "ID_ORGAO_DEMANDA",
+   "type": "number",
+   "title": "ID do órgão da demanda",
+   "description": ""
+ },
+ { 
+   "name": "CD_ORGAO_DEMANDA",
+   "type": "number",
+   "title": "Código do órgão da demanda",
+   "description": ""
+ },
+ { 
+   "name": "NOME",
+   "type": "string",
+   "title": "Nome do órgão da demanda",
+   "description": ""
+  }
+  ]
+ }
+},
+{
+  "profile": "tabular-data-resource",
+  "name": "DM_SITUACAO_PROC",
+  "path": "data/dm-situacao-proce.csv",
+  "title": "DM_SITUACAO_PROC",
+  "description": "",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "schema": {
+  "fields": [
+   {
+   "resource": "DM_PROCEDIMENTO",
+   "name": "ID_PROCEDIMENTO",
+   "type": "number",
+   "title": "ID do procedimento",
+   "description": ""
+ },
+ { 
+   "name": "NOME",
+   "type": "string",
+   "title": "Nome do procedimento",
+   "description": ""
+ }
+  ]
+ }
+},
+{
+  "profile": "tabular-data-resource",
+  "name": "DM_SITUACAO_PROC",
+  "path": "data/dm-situacao-proce.csv",
+  "title": "DM_SITUACAO_PROC",
+  "description": "",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "schema": {
+  "fields": [
+   {
+   "resource": "DM_PROCESSO",
+   "name": "ID_PROCESSO",
+   "type": "number",
+   "title": "ID do processo",
+   "description": ""
+ },
+ { 
+   "name": "CD_ORGAO",
+   "type": "number",
+   "title": "Código do órgão",
+   "description": ""
+ },
+ { 
+   "name": "CD_PROCESSO",
+   "type": "number",
+   "title": "Código do processo",
+   "description": ""
+ },
+ { 
+   "name": "CD_PROCESSO_FORMATADO",
+   "type": "string",
+   "title": "Código do processo formatado",
+   "description": ""
+ },
+ { 
+   "name": "URL_EDITAL",
+   "type": "string",
+   "title": "URL do edital do processo",
+   "description": ""
+ },
+ { 
+   "name": "ORGAO",
+   "type": "string",
+   "title": "Órgão",
+   "description": ""
+ },
+ { 
+   "name": "PROCEDIMENTO",
+   "type": "string",
+   "title": "Procedimento",
+   "description": ""
+ },
+ { 
+   "name": "OBJETO",
+   "type": "string",
+   "title": "Objeto",
+   "description": ""
+ },
+ { 
+   "name": "SITUACAO",
+   "type": "string",
+   "title": "Situação",
+   "description": ""
+ },
+ { 
+   "name": "CRITERIO_JULGAMENTO",
+   "type": "string",
+   "title": "Critério de julgamento",
+   "description": ""
+ },
+ { 
+   "name": "TP_LICITACAO",
+   "type": "string",
+   "title": "Tipo de licitação",
+   "description": ""
+ },
+ { 
+   "name": "DT_CAD_PROCESSO",
+   "type": "date",
+   "title": "Data de cadastramento do processo",
+   "description": ""
+ },
+ { 
+   "name": "VR_REFERENCIA",
+   "type": "number",
+   "title": "Valor de referência",
+   "description": ""
+ },
+ { 
+   "name": "VR_HOMOLOGADO",
+   "type": "number",
+   "title": "Valor homologado",
+   "description": ""
+  }
+  ]
+ }
+},
+{
+  "profile": "tabular-data-resource",
+  "name": "DM_SITUACAO_PROC",
+  "path": "data/dm-situacao-proce.csv",
+  "title": "DM_SITUACAO_PROC",
+  "description": "",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "schema": {
+  "fields": [
+   {
+   "resource": "DM_PROGRAMA",
+   "name": "ID_PROGRAMA",
+   "type": "number",
+   "title": "ID do programa",
+   "description": "Código que relaciona os dados com a tabela FT_DESPESA"
+ },
+ { 
+   "name": "ANO_EXERCICIO",
+   "type": "number",
+   "title": "Ano de Exercício",
+   "description": "Ano de exercício dos dados"
+ },
+ { 
+   "name": "CD_PROGRAMA",
+   "type": "number",
+   "title": "Código do Programa",
+   "description": "Código do programa"
+ },
+ { 
+   "name": "NOME",
+   "type": "string",
+   "title": "Nome do programa",
+   "description": "Nome do programa"
+  }
+  ]
+ }
+},
+{
+  "profile": "tabular-data-resource",
+  "name": "DM_SITUACAO_PROC",
+  "path": "data/dm-situacao-proc.csv",
+  "title": "DM_SITUACAO_PROC",
+  "description": "",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "schema":
+   {
+  "fields": [
+ {
+   "resource": "DM_SITUACAO_CONT",
+   "name": "ID_SITUACAO_CONT",
+   "type": "number",
+   "title": "ID da situação do contrato",
+   "description": ""
+ },
+ {
+   "name": "CD_SITUACAO_CONT",
+   "type": "number",
+   "title": "Código da situação do contrato",
+   "description": ""
+ },
+ { 
+   "name": "NOME",
+   "type": "string",
+   "title": "Nome da situação do contrato",
+   "description": ""
+   }
+  ]
+ }
+},
+{
+  "profile": "tabular-data-resource",
+  "name": "DM_SITUACAO_PROC",
+  "path": "data/dm-situacao-proc.csv",
+  "title": "DM_SITUACAO_PROC",
+  "description": "",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "schema": {
+  "fields": [
+   {
+   "name": "ID_SITUACAO_PROC",
+   "type": "number",
+   "title": "ID da situação do procedimento",
+   "description": ""
+   },
+   { 
+   "name": "CD_SITUACAO_PROC",
+   "type": "number",
+   "title": "Código da situação do procedimento",
+   "description": ""
+   },
+   { 
+   "name": "NOME",
+   "type": "string",
+   "title": "Nome da situação do procedimento",
+   "description": ""
+    }
+   ]
+  }
+ },
+{
+  "profile": "tabular-data-resource",
+  "name": "DM_TEMPO_DIARIO",
+  "path": "data/dm-tempo-diario.csv",
+  "title": "DM_TEMPO_DIARIO",
+  "description": "",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "schema": {
+  "fields": [
+   {
+   "name": "ID_TEMPO",
+   "type": "number",
+   "title": "ID tempo diário",
+   "description": "Código que relaciona os dados com as tabelas FT_DESPESA e FT_DIVIDA_PUB"
+   },
+   { 
+   "name": "DATA_ISO",
+   "type": "number",
+   "title": "Data padrão ISO",
+   "description": "Data sem formatação"
+   },
+   { 
+   "name": "DIA",
+   "type": "number",
+   "title": "Dia",
+   "description": "Dia"
+   },
+   { 
+   "name": "MES",
+   "type": "number",
+   "title": "Mês",
+   "description": "Mês"
+   },
+   { 
+   "name": "ANO",
+   "type": "number",
+   "title": "Ano de Exercício",
+   "description": "Ano"
+   },
+   { 
+   "name": "DATA_FORMATADA",
+   "type": "date",
+   "title": "Data formatada",
+   "description": "Data formatada padrão brasileiro"
+   }
+   ]
+  }
+ },
+{
+  "profile": "tabular-data-resource",
+  "name": "DM_TIPO_LICITACAO",
+  "path": "data/dm-tipo-licitacao.csv",
+  "title": "DM_TIPO_LICITACAO",
+  "description": "",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "schema": {
+  "fields": [
+   {
+   "name": "ID_TIPO_LICITACAO",
+   "type": "number",
+   "title": "ID do tipo de licitação",
+   "description": ""
+   },
+   { 
+   "name": "CD_TIPO_LICITACAO",
+   "type": "number",
+   "title": "Código do tipo de licitação",
+   "description": ""
+   },
+   { 
+   "name": "NOME",
+   "type": "string",
+   "title": "Nome do tipo de licitação",
+   "description": ""
+   }
+   ]
+  }
+ },
+{
+  "profile": "tabular-data-resource",
+  "name": "DM_UNIADE_MEDIDA",
+  "path": "data/dm-unidade-medida.csv",
+  "title": "DM_UNIADE_MEDIDA",
+  "description": "",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "schema": {
+  "fields": [
+   {
+   "name": "ID_UNIDADE_MEDIDA",
+   "type": "number",
+   "title": "ID da unidade de medida",
+   "description": ""
+   },
+   { 
+   "name": "SQA_UNIDADE_MEDIDA",
+   "type": "number",
+   "title": "SQA da unidade de medida",
+   "description": ""
+   },
+   { 
+   "name": "CD_UNIDADE_MEDIDA",
+   "type": "number",
+   "title": "Código da unidade de medida",
+   "description": ""
+   },
+   { 
+   "name": "NOME",
+   "type": "string",
+   "title": "Nome da unidade de medida",
+   "description": ""
+   }
+   ]
+  }
+ },
+{
+  "profile": "tabular-data-resource",
+  "name": "DM_UNIDADE_ORC",
+  "path": "data/dm-unidade-orc.csv",
+  "title": "DM_UNIDADE_ORC",
+  "description": "",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "schema": {
+  "fields": [
+   {
+   "name": "ID_UNIDADE_ORC",
+   "type": "number",
+   "title": "ID da unidade orçamentária",
+   "description": "Código que relaciona os dados com as tabelas FT_DESPESA, FT_DIARIAS e FT_RESTOS_PAGAR"
+    },
+   { 
+   "name": "SQA_UNIDADE_ORCAM",
+   "type": "number",
+   "title": "SQA da unidade orçamentária",
+   "description": ""
+   },
+   { 
+   "name": "ANO_EXERCICIO",
+   "type": "number",
+   "title": "Ano de Exercício",
+   "description": "Ano de exercício dos dados"
+   },
+   { 
+   "name": "CD_UNIDADE_ORC",
+   "type": "number",
+   "title": "Código da unidade orçamentária",
+   "description": "Código da Unidade Orçamentária"
+   },
+   { 
+   "name": "ID_GRUPO_ADMINISTRACAO",
+   "type": "number",
+   "title": "ID do Grupo de administração",
+   "description": "Código do Grupo de Administração"
+   },
+   { 
+   "name": "GRUPO_ADMINISTRACAO",
+   "type": "string",
+   "title": "Grupo de administração",
+   "description": "Nome do Grupo de Administração"
+   },
+   { 
+   "name": "ID_ADMINISTRACAO",
+   "type": "number",
+   "title": "ID de administração",
+   "description": "Código da Administração"
+   },
+   { 
+   "name": "ADMINISTRACAO",
+   "type": "string",
+   "title": "Administração",
+   "description": "Compreende grupo de órgãos e entidades de acordo com sua natureza jurídica e tipo de atividade exercida."
+   },
+   { 
+   "name": "NOME",
+   "type": "string",
+   "title": "Nome da unidade orçamentária",
+   "description": "Nome da Unidade Orçamentária"
+    }
+   ]
+  }
+ },
+{
+  "profile": "tabular-data-resource",
+  "name": "FL_COMPRAS_EMPENHO",
+  "path": "data/fl-compras-empenho.csv",
+  "title": "FL_COMPRAS_EMPENHO",
+  "description": "",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "schema": {
+  "fields": [
+   {
+   "name": "ID_PROCESSO",
+   "type": "number",
+   "title": "ID do processo",
+   "description": ""
+   },
+   { 
+   "name": "ID_EMPENHO",
+   "type": "number",
+   "title": "ID do empenho",
+   "description": ""
+   },
+   { 
+   "name": "ID_PROGRAMA",
+   "type": "number",
+   "title": "ID do programa",
+   "description": ""
+   },
+   { 
+   "name": "ID_ACAO",
+   "type": "number",
+   "title": "ID da ação",
+   "description": ""
+   },
+   { 
+   "name": "ID_ELEMENTO",
+   "type": "number",
+   "title": "ID do elemento",
+   "description": ""
+   },
+   { 
+   "name": "ID_ITEM",
+   "type": "number",
+   "title": "ID do item",
+   "description": ""
+   },
+   { 
+   "name": "DOTACAO_ORCAMENTARIA",
+   "type": "string",
+   "title": "Dotação orçamentária",
+   "description": ""
+    }
+   ]
+  }
+ },
+{
+  "profile": "tabular-data-resource",
+  "name": "FT_COMPRAS",
+  "path": "data/ft-compras.csv",
+  "title": "FT_COMPRAS",
+  "description": "",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "schema": {
+  "fields": [
+   {
+   "name": "ID_TEMPO",
+   "type": "number",
+   "title": "ID do tempo",
+   "description": ""
+   },
+   { 
+   "name": "ID_PROCEDIMENTO",
+   "type": "number",
+   "title": "ID do procedimento",
+   "description": ""
+   },
+   {
+   "name": "ID_ORGAO_DEMANDA",
+   "type": "number",
+   "title": "ID do órgão demandante",
+   "description": ""
+   },
+   { 
+   "name": "ID_ORGAO_CONTRATO",
+   "type": "number",
+   "title": "ID do órgão do contrato",
+   "description": ""
+   },
+   { 
+   "name": "ID_SITUACAO_PROC",
+   "type": "number",
+   "title": "ID da situação do procedimento",
+   "description": ""
+   },
+   { 
+   "name": "ID_SITUACAO_CONT",
+   "type": "number",
+   "title": "ID da situação do contrato",
+   "description": ""
+   },
+   { 
+   "name": "ID_MUNICIPIO",
+   "type": "number",
+   "title": "ID do município",
+   "description": ""
+   },
+   { 
+   "name": "ID_CONTRATADO",
+   "type": "number",
+   "title": "ID do contratado",
+   "description": ""
+   },
+   { 
+   "name": "ID_TIPO_LICITACAO",
+   "type": "number",
+   "title": "ID do tipo da licitação",
+   "description": ""
+   },
+   { 
+   "name": "ID_GRUPO_MATSERV",
+   "type": "number",
+   "title": "ID do grupo de material e serviço",
+   "description": ""
+   },
+   { 
+   "name": "ID_CLASSE_MATSERV",
+   "type": "number",
+   "title": "ID da classe de material e serviço",
+   "description": ""
+   },
+   { 
+   "name": "ID_MATERIAL_SERVICO",
+   "type": "number",
+   "title": "ID material e serviço",
+   "description": ""
+   },
+   { 
+   "name": "ID_ITEM_MATSERV",
+   "type": "number",
+   "title": "ID do item de material e serviço",
+   "description": ""
+   },
+   { 
+   "name": "ID_PROCESSO",
+   "type": "number",
+   "title": "ID do processo",
+   "description": ""
+   },
+   { 
+   "name": "ID_CONTRATO",
+   "type": "number",
+   "title": "ID do contrato",
+   "description": ""
+   },
+   {
+   "name": "ID_UNIDADE_MEDIDA",
+   "type": "number",
+   "title": "ID da unidade de medida",
+   "description": ""
+   },
+   { 
+   "name": "ID_LINHA_FORNEC",
+   "type": "number",
+   "title": "ID da linha de fornecimento",
+   "description": ""
+   },
+   {
+   "name": "ID_ITEM",
+   "type": "number",
+   "title": "Id do item",
+   "description": ""
+   },
+   { 
+   "name": "ID_UNIDADE_ORC",
+   "type": "number",
+   "title": "ID da unidade orçamentária",
+   "description": ""
+   },
+   { 
+   "name": "SQA_PROCEDIMENTO",
+   "type": "number",
+   "title": "SQA do procedimento",
+   "description": ""
+   },
+   {
+   "name": "SQA_ITEM_PEDIDO",
+   "type": "number",
+   "title": "SQA do item do pedido",
+   "description": ""
+   },
+   {
+   "name": "ANO_PARTICAO",
+   "type": "number",
+   "title": "Ano de partição",
+   "description": ""
+   },
+   { 
+   "name": "DT_ITEM_HOMOLOGA",
+   "type": "date",
+   "title": "Data do item de homologação",
+   "description": ""
+   },
+   {
+   "name": "QT_ITEM_PEDIDO",
+   "type": "number",
+   "title": "Quantidade de item pedido",
+   "description": ""
+   },
+   { 
+   "name": "VR_UN_REFERENCIA",
+   "type": "number",
+   "title": "Valor unitário de referência",
+   "description": ""
+   },
+   { 
+   "name": "VR_REFERENCIA",
+   "type": "number",
+   "title": "Valor de referência",
+   "description": ""
+   },
+   { 
+   "name": "VR_UN_HOMOLOGADO",
+   "type": "number",
+   "title": "Valor unitário homologado",
+   "description": ""
+   },
+   { 
+   "name": "VR_HOMOLOGADO",
+   "type": "number",
+   "title": "Valor homologado",
+   "description": ""
+   },
+   { 
+   "name": "VR_ATUALIZADO",
+   "type": "number",
+   "title": "Valor atualizado",
+   "description": ""
+   }
+  ]
+ }
+},
+{
+  "profile": "tabular-data-resource",
+  "name": "FT_COMPRAS_CONTRATO",
+  "path": "data/ft-compras-contrato.csv",
+  "title": "FT_COMPRAS_CONTRATO",
+  "description": "",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "schema": {
+  "fields": [
+   {
+   "name": "ID_TEMPO",
+   "type": "number",
+   "title": "ID do tempo",
+   "description": ""
+   },
+   { 
+   "name": "ID_PROCESSO",
+   "type": "number",
+   "title": "ID do processo",
+   "description": ""
+   },
+   { 
+   "name": "ID_ORGAO_CONTRATO",
+   "type": "number",
+   "title": "ID do órgão do contrato",
+   "description": ""
+   },
+   { 
+   "name": "ID_CONTRATO",
+   "type": "number",
+   "title": "ID do contrato",
+   "description": ""
+   },
+   { 
+   "name": "ID_CONTRATADO",
+   "type": "number",
+   "title": "ID do contratado",
+   "description": ""
+   },
+   { 
+   "name": "ID_SITUACAO_CONT",
+   "type": "number",
+   "title": "ID da situação do contrato",
+   "description": ""
+   },
+   { 
+   "name": "ANO_PARTICAO",
+   "type": "number",
+   "title": "Ano de partição",
+   "description": ""
+   },
+   { 
+   "name": "VR_HOMOLOGADO",
+   "type": "number",
+   "title": "Valor homologado",
+   "description": ""
+   },
+   { 
+   "name": "VR_ATUALIZADO",
+   "type": "number",
+   "title": "Valor atualizado",
+   "description": ""
+   }
+  ]
+ }
+}
+]
