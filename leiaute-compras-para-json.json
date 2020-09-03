@@ -1,4 +1,6 @@
-[
+{
+  "profile": "tabular-data-package",
+  "resources": [
 {
   "profile": "tabular-data-resource",
   "name": "DM_ACAO",
@@ -1426,4 +1428,16 @@
   ]
  }
 }
-]
+,
+  "keywords": [
+    "compras",
+    "despesa",
+    "materiais",
+    "serviços"
+  ],
+  "name": "compras",
+  "title": "Compras",
+  "description": "Contém dados sobre compras governamentais em Minas Gerais.",
+  "private": "false",
+  "state": "active"
+}
