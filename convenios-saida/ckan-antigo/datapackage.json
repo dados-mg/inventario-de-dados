@@ -1,0 +1,640 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "DM_CONVENENTE",
+      "path": "DM_CONVENENTE_2017.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "ID_CONVENENTE",
+            "type": "integer",
+            "format": "default",
+            "title": "ID do convenente",
+            "description": "Código que relaciona os dados com as tabelas FT_CONVENIO e FT_CONVENIO_ATENDIMENTO\n"
+          },
+          {
+            "name": "TP_DOCUMENTO",
+            "type": "integer",
+            "format": "default",
+            "description": "Tipo do documento\n",
+            "title": "Tipo do documento"
+          },
+          {
+            "name": "NR_DOCUMENTO",
+            "type": "integer",
+            "format": "default",
+            "description": "Número do documento\n",
+            "title": "Número do documento"
+          },
+          {
+            "name": "NOME",
+            "type": "string",
+            "format": "default",
+            "description": "Nome/descrição do convenente\n",
+            "title": "Nome/descrição do convenente"
+          }
+        ]
+      },
+      "format": "csv",
+      "encoding": "UTF-8",
+      "title": "Convenente",
+      "description": "Tabela-dimensão Convenente"
+    },
+    {
+      "name": "DM_CONVENIO",
+      "path": "DM_CONVENIO_2017.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "ID_CONVENIO",
+            "type": "integer",
+            "format": "default",
+            "description": "Código que relaciona os dados com as tabelas FT_CONVENIO e FT_CONVENIO_ATENDIMENTO\n",
+            "title": "Id do convênio"
+          },
+          {
+            "name": "FL_VERSAO",
+            "type": "integer",
+            "format": "default",
+            "description": "Sistema de origem dos dados (Sigconv1 ou Sigconv2)\n",
+            "title": "Sistema de origem dos dados"
+          },
+          {
+            "name": "SQE_CONVENIO",
+            "type": "integer",
+            "format": "default",
+            "description": "Id do convênio (transacional)\n",
+            "title": "Id do convênio transacional"
+          },
+          {
+            "name": "NR_SIAFI",
+            "type": "integer",
+            "format": "default",
+            "description": "Número de registro do convênio no SIAFI\n",
+            "title": "Número de registro do convênio no SIAFI"
+          },
+          {
+            "name": "NR_SIGCON",
+            "type": "integer",
+            "format": "default",
+            "description": "Número de registro do convênio no SIGCON\n",
+            "title": "Número de registro do convênio no SIGCON"
+          },
+          {
+            "name": "NR_PLANO_SIGCON",
+            "type": "integer",
+            "format": "default",
+            "description": "Número de registro do plano no SIGCON\n",
+            "title": "Número de registro do plano no SIGCON"
+          },
+          {
+            "name": "NOME",
+            "type": "string",
+            "format": "default",
+            "description": "Titulo do convênio\n",
+            "title": "Titulo do convênio"
+          },
+          {
+            "name": "DT_PUBLICACAO",
+            "type": "integer",
+            "format": "default",
+            "description": "Data de publicação do convênio\n",
+            "title": "Data de publicação do convênio"
+          },
+          {
+            "name": "DT_VIGENCIA_INICIAL",
+            "type": "integer",
+            "format": "default",
+            "description": "Data de início da vigência\n\n",
+            "title": "Data de início da vigência"
+          },
+          {
+            "name": "DT_VIGENCIA_ATUAL",
+            "type": "integer",
+            "format": "default",
+            "description": "Data do término atual da vigência\n",
+            "title": "Data do término atual da vigência"
+          },
+          {
+            "name": "TP_PESSOA_BENEFICIADA",
+            "type": "string",
+            "format": "default",
+            "description": "Tipo de pessoa beneficiada\n",
+            "title": "Tipo de pessoa beneficiada"
+          },
+          {
+            "name": "QT_PESSOA_BENEFICIADA",
+            "type": "integer",
+            "format": "default",
+            "description": "Quantidade de pessoas beneficiadas\n",
+            "title": "Quantidade de pessoas beneficiadas"
+          },
+          {
+            "name": "VR_CONCEDE_PUBLIC",
+            "type": "integer",
+            "format": "default",
+            "description": "Valor do concedente no ato da publicação\n",
+            "title": "Valor do concedente "
+          },
+          {
+            "name": "VR_EMEN_PARL_PUBLIC",
+            "type": "integer",
+            "format": "default",
+            "description": "Valor da emenda parlamentar no ato da publicação\n",
+            "title": "Valor da emenda parlamentar "
+          },
+          {
+            "name": "VR_INTERV_PUBLIC",
+            "type": "integer",
+            "format": "default",
+            "description": "Valor do interveniente no ato da publicação\n",
+            "title": "Valor do interveniente"
+          },
+          {
+            "name": "VR_CONTRA_PUBLIC",
+            "type": "integer",
+            "format": "default",
+            "description": "Valor da contrapartida no ato da publicação\n",
+            "title": "Valor da contrapartida "
+          },
+          {
+            "name": "VR_RENDIMENTOS",
+            "type": "integer",
+            "format": "default",
+            "description": "Valor dos rendimentos\n",
+            "title": "Valor dos rendimentos"
+          },
+          {
+            "name": "VR_TOTAL_PUBLIC",
+            "type": "integer",
+            "format": "default",
+            "description": "Valor total publicado\n",
+            "title": "Valor total publicado"
+          }
+        ]
+      },
+      "format": "csv",
+      "encoding": "UTF-8",
+      "title": "Convenio",
+      "description": "Tabela-dimensão Convênio"
+    },
+    {
+      "name": "DM_MUNICIPIO",
+      "path": "DM_MUNICIPIO_2017.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "ID_MUNICIPIO",
+            "type": "integer",
+            "format": "default",
+            "description": "Código que relaciona os dados com as tabelas FT_CONVENIO e FT_CONVENIO_ATENDIMENTO\n",
+            "title": "ID do município"
+          },
+          {
+            "name": "CD_MUNICIPIO_IBGE",
+            "type": "integer",
+            "format": "default",
+            "description": "Código IBGE do Município\n",
+            "title": "Código IBGE do Município"
+          },
+          {
+            "name": "NOME",
+            "type": "string",
+            "format": "default",
+            "description": "Nome do Município\n",
+            "title": "Nome do Município"
+          },
+          {
+            "name": "ESTADO",
+            "type": "any",
+            "format": "default",
+            "description": "Estado onde se encontra o Município\n",
+            "title": "Estado"
+          },
+          {
+            "name": "PAÍS",
+            "type": "string",
+            "format": "default",
+            "description": "País onde se encontra o Município\n",
+            "title": "País"
+          }
+        ]
+      },
+      "title": "Município",
+      "format": "csv",
+      "encoding": "UTF-8",
+      "description": "Tabela dimensão Município"
+    },
+    {
+      "name": "DM_ORGAO_CONCEDENTE",
+      "path": "DM_ORGAO_CONCEDENTE_2017.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "ID_ORGAO",
+            "type": "integer",
+            "format": "default",
+            "description": "Código que relaciona os dados com as tabelas FT_CONVENIO e FT_CONVENIO_ATENDIMENTO\n",
+            "title": "ID do órgão"
+          },
+          {
+            "name": "SQE_ORGAO",
+            "type": "integer",
+            "format": "default",
+            "description": "Código do órgão\n",
+            "title": "SQE do órgão"
+          },
+          {
+            "name": "CD_ORGAO",
+            "type": "integer",
+            "format": "default",
+            "description": "Código do órgão\n",
+            "title": "Código do órgão"
+          },
+          {
+            "name": "NOME",
+            "type": "string",
+            "format": "default",
+            "description": "Nome do órgão",
+            "title": "Nome do órgão"
+          }
+        ]
+      },
+      "title": "Órgão Concedente",
+      "format": "csv",
+      "encoding": "UTF-8",
+      "description": "Tabela-dimensão Órgão Concedente"
+    },
+    {
+      "name": "DM_SITUACAO_CONVENIO",
+      "path": "DM_SITUACAO_CONVENIO_2017.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "ID_SITUACAO",
+            "type": "integer",
+            "format": "default",
+            "description": "Código que relaciona os dados com as tabelas FT_CONVENIO e FT_CONVENIO_ATENDIMENTO\n",
+            "title": "ID situação"
+          },
+          {
+            "name": "FL_VERSAO",
+            "type": "integer",
+            "format": "default",
+            "description": "Sistema de origem dos dados (Sigconv1 ou Sigconv2)\n",
+            "title": "Versão"
+          },
+          {
+            "name": "SQE_SITUACAO",
+            "type": "integer",
+            "format": "default",
+            "description": "Id da situação (transacional)\n",
+            "title": "SQE Situação"
+          },
+          {
+            "name": "NOME",
+            "type": "string",
+            "format": "default",
+            "description": "Nome/descrição da situação do convênio\n",
+            "title": "Descrição situação"
+          }
+        ]
+      },
+      "title": "Situação do Convênio",
+      "format": "csv",
+      "encoding": "UTF-8",
+      "description": "Tabela-Dimensão Situação do Convênio"
+    },
+    {
+      "name": "DM_TEMPO_DIARIO",
+      "path": "DM_TEMPO_DIARIO_2017.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "ID_TEMPO",
+            "type": "integer",
+            "format": "default",
+            "description": "Código que relaciona cronologicamente os dados das tabelas FT_CONVENIO e FT_CONVENIO_ATENDIMENTO\n",
+            "title": "Id Tempo"
+          },
+          {
+            "name": "DATA_ISO",
+            "type": "integer",
+            "format": "default",
+            "description": "Data sem formatação\n",
+            "title": "Data ISO"
+          },
+          {
+            "name": "DIA",
+            "type": "integer",
+            "format": "default",
+            "description": "Dia",
+            "title": "Dia"
+          },
+          {
+            "name": "MES",
+            "type": "integer",
+            "format": "default",
+            "description": "Mês",
+            "title": "Mês"
+          },
+          {
+            "name": "ANO",
+            "type": "integer",
+            "format": "default",
+            "description": "Ano",
+            "title": "Ano"
+          },
+          {
+            "name": "DATA_FORMATADA",
+            "type": "integer",
+            "format": "default",
+            "description": "Data formatada padrão brasileiro\n",
+            "title": "Data formatada padrão"
+          }
+        ]
+      },
+      "title": "Tempo Diário",
+      "format": "csv",
+      "encoding": "UTF-8",
+      "description": "Tabela-Dimensão Tempo Diário"
+    },
+    {
+      "name": "DM_TIPO_ATENDIMENTO",
+      "path": "DM_TIPO_ATENDIMENTO_2017.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "ID_TIPO_ATENDIMENTO",
+            "type": "integer",
+            "format": "default",
+            "description": "Código que relaciona os dados com as tabelas FT_CONVENIO e FT_CONVENIO_ATENDIMENTO\n",
+            "title": "ID tipo de atendimento"
+          },
+          {
+            "name": "FL_VERSAO",
+            "type": "integer",
+            "format": "default",
+            "description": "Sistema de origem dos dados (Sigconv1 ou Sigconv2)\n",
+            "title": "Versão"
+          },
+          {
+            "name": "SQE_TIPO_ATENDIMENTO",
+            "type": "integer",
+            "format": "default",
+            "description": "Id do tipo de atendimento (transacional)\n",
+            "title": "SQE atendimento"
+          },
+          {
+            "name": "NOME",
+            "type": "string",
+            "format": "default",
+            "description": "Nome/descrição do tipo de atendimento\n",
+            "title": "Tipo de atendimento"
+          }
+        ]
+      },
+      "title": "Tipo de Atendimento",
+      "format": "csv",
+      "encoding": "UTF-8",
+      "description": "Tabela-Dimensão do Tipo de Atendimento"
+    },
+    {
+      "name": "FT_CONVENIO_2017",
+      "path": "FT_CONVENIO_2017.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "ID_TEMPO",
+            "type": "integer",
+            "format": "default",
+            "description": "Código identificador que relaciona os dados com a tabela DM_TEMPO_DIARIO\n",
+            "title": "ID tempo"
+          },
+          {
+            "name": "ID_ORGAO",
+            "type": "integer",
+            "format": "default",
+            "description": "Código identificador que relaciona os dados com a tabela DM_ORGAO_CONCEDENTE\n",
+            "title": "ID do órgão"
+          },
+          {
+            "name": "ID_CONVENIO",
+            "type": "integer",
+            "format": "default",
+            "description": "Código identificador que relaciona os dados com a tabela DM_CONVENIO\n",
+            "title": "ID do convênio"
+          },
+          {
+            "name": "ID_MUNICIPIO",
+            "type": "integer",
+            "format": "default",
+            "description": "Código identificador que relaciona os dados com a tabela DM_MUNICIPIO\n",
+            "title": "ID do município"
+          },
+          {
+            "name": "ID_CONVENENTE",
+            "type": "integer",
+            "format": "default",
+            "description": "Código identificador que relaciona os dados com a tabela DM_CONVENENTE\n",
+            "title": "ID do convenente"
+          },
+          {
+            "name": "ANO_PARTICAO",
+            "type": "integer",
+            "format": "default",
+            "description": "Ano de exercício dos dados\n",
+            "title": "Ano dos dados"
+          },
+          {
+            "name": "VR_CONCEDE_ATUAL",
+            "type": "integer",
+            "format": "default",
+            "description": "Valor atual do concedente\n",
+            "title": "Valor do concedente "
+          },
+          {
+            "name": "VR_EMEN_PARL_ATUAL",
+            "type": "integer",
+            "format": "default",
+            "description": "Valor atual da emenda parlamentar\n",
+            "title": "Valor da emenda parlamentar "
+          },
+          {
+            "name": "VR_INTERV_ATUAL",
+            "type": "integer",
+            "format": "default",
+            "description": "Valor atual do interveniente \n",
+            "title": "Valor do interveniente "
+          },
+          {
+            "name": "VR_CONTRA_ATUAL",
+            "type": "integer",
+            "format": "default",
+            "description": "Valor atual da contrapartida \n",
+            "title": "Valor da contrapartida "
+          },
+          {
+            "name": "VR_TOTAL_ATUAL",
+            "type": "integer",
+            "format": "default",
+            "description": "Valor total do convênio atual\n",
+            "title": "Valor total do convênio "
+          },
+          {
+            "name": "VR_REP_CONCEDE_ATUAL",
+            "type": "integer",
+            "format": "default",
+            "description": "Valor repassado (SIAFI) pelo concedente.\n",
+            "title": "Valor repassado pelo concedente"
+          }
+        ]
+      },
+      "title": "Convênio",
+      "format": "csv",
+      "encoding": "UTF-8",
+      "description": "Tabela-fato Convênio"
+    },
+    {
+      "name": "resFT_CONVENIO_TIPOATENDIMENTO",
+      "path": "FT_CONVENIO_TIPOATENDIMENTO_2017.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "ID_TEMPO",
+            "type": "integer",
+            "format": "default",
+            "title": "ID tempo",
+            "description": "Código identificador que relaciona os dados com a tabela DM_TEMPO_DIARIO\n"
+          },
+          {
+            "name": "ID_ORGAO",
+            "type": "integer",
+            "format": "default",
+            "description": "Código identificador que relaciona os dados com a tabela DM_ORGAO_CONCEDENTE\n",
+            "title": "ID órgão"
+          },
+          {
+            "name": "ID_CONVENIO",
+            "type": "integer",
+            "format": "default",
+            "description": "Código identificador que relaciona os dados com a tabela DM_CONVENIO \n",
+            "title": "ID convênio"
+          },
+          {
+            "name": "ID_MUNICIPIO",
+            "type": "integer",
+            "format": "default",
+            "description": "Código identificador que relaciona os dados com a tabela DM_MUNICIPIO\n",
+            "title": "ID do município"
+          },
+          {
+            "name": "ID_CONVENENTE",
+            "type": "integer",
+            "format": "default",
+            "description": "Código identificador que relaciona os dados com a tabela DM_CONVENENTE\n",
+            "title": "ID do convenente"
+          },
+          {
+            "name": "ID_TIPO_ATENDIMENTO",
+            "type": "integer",
+            "format": "default",
+            "description": "Código identificador que relaciona os dados com a tabela DM_ TIPO_ATENDIMENTO\n",
+            "title": "ID do tipo de atendimento"
+          },
+          {
+            "name": "ID_SITUACAO",
+            "type": "integer",
+            "format": "default",
+            "description": "Código identificador que relaciona os dados com a tabela DM_SITUACAO\n",
+            "title": "ID da situação"
+          },
+          {
+            "name": "ANO_PARTICAO",
+            "type": "integer",
+            "format": "default",
+            "description": "Ano de exercício dos dados\n",
+            "title": "Ano dos dados"
+          },
+          {
+            "name": "VR_CONCEDE_ATUAL",
+            "type": "integer",
+            "format": "default",
+            "description": "Valor do concedente atual.\n",
+            "title": "Valor do concedente"
+          },
+          {
+            "name": "VR_EMEN_PARL_ATUAL",
+            "type": "integer",
+            "format": "default",
+            "description": "Valor da emenda parlamentar atual\n",
+            "title": "Valor da emente"
+          },
+          {
+            "name": "VR_INTERV_ATUAL",
+            "type": "integer",
+            "format": "default",
+            "description": "Valor do interveniente atual\n",
+            "title": "Valor do interveniente"
+          },
+          {
+            "name": "VR_CONTRA_ATUAL",
+            "type": "integer",
+            "format": "default",
+            "description": "Valor da contrapartida atual\n",
+            "title": "Valor da contrapartida"
+          },
+          {
+            "name": "VR_TOTAL_ATUAL",
+            "type": "integer",
+            "format": "default",
+            "description": "Valor total do convênio atual\n",
+            "title": "Valor atual do convênio"
+          },
+          {
+            "name": "VR_TOTAL_PUBLIC",
+            "type": "integer",
+            "format": "default",
+            "description": "Valor total do convênio no momento da publicação\n",
+            "title": "Valor publicado"
+          }
+        ]
+      },
+      "title": "Convênio por tipo de atendimento",
+      "description": "Tabela-fato de Convênio por tipo de atendimento",
+      "format": "csv",
+      "encoding": "UTF-8"
+    }
+  ],
+  "keywords": [
+    "convenios",
+    "transferências",
+    "parcerias"
+  ],
+  "name": "convenios-de-saida",
+  "title": "Convênios de Saída",
+  "description": "Dados sobre os convênios de saída celebrados pelo Poder Executivo do Estado de Minas Gerais",
+  "contributors": [
+    {
+      "title": "Andre Amorim",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
+}
