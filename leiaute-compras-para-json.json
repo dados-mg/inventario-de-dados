@@ -12,34 +12,34 @@
   "encoding": "utf-8",
   "schema": {
   "fields": [
-   {
-   "name": "ID_ACAO",
-   "type": "number",
-   "title": "ID da ação",
-   "description": "Código que relaciona os dados com a tabela FT_DESPESA"
-   },
-   {
-   "name": "ANO_EXERCICIO",
-   "type": "number",
-   "title": "Ano de Exercício",
-   "description": "Ano de exercício dos dados"
-   },
-   {
-   "name": "CD_ACAO",
-   "type": "number",
-   "title": "Código da Ação",
-   "description": "Código da Ação"
-   },
-   {
-   "name": "NOME",
-   "type": "string",
-   "title": "Nome da Ação",
-   "description": "Indicação de existência de nível inferior."
-   }
-  ]
- }
-},
-{
+    {
+    "name": "ID_ACAO",
+    "type": "number",
+    "title": "ID da ação",
+    "description": "Código que relaciona os dados com a tabela FT_DESPESA"
+    },
+    {
+    "name": "ANO_EXERCICIO",
+    "type": "number",
+    "title": "Ano de Exercício",
+    "description": "Ano de exercício dos dados"
+    },
+    {
+    "name": "CD_ACAO",
+    "type": "number",
+    "title": "Código da Ação",
+    "description": "Código da Ação"
+    },
+    {
+    "name": "NOME",
+    "type": "string",
+    "title": "Nome da Ação",
+    "description": "Indicação de existência de nível inferior."
+    }
+   ]
+  }
+ },
+ {
   "profile": "tabular-data-resource",
   "name": "DM_CLASSE_MATSERV",
   "path": "data/dm-classe-matserv.csv",
@@ -67,9 +67,9 @@
    "type": "string",
    "title": "Nome da Classe do Material ou Serviço",
    "description": ""
- }
-  ]
- }
+    }
+   ]
+  }
 },
 {
   "profile": "tabular-data-resource",
@@ -1429,7 +1429,11 @@
  }
 }
 ],
+<<<<<<< HEAD
   "keywords": [
+=======
+"keywords": [
+>>>>>>> ca8a77bac90b2e4f7f874901739b2fc7c06f2311
     "compras",
     "despesa",
     "materiais",
@@ -1440,4 +1444,8 @@
   "description": "Contém dados sobre compras governamentais em Minas Gerais.",
   "private": "false",
   "state": "active"
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> ca8a77bac90b2e4f7f874901739b2fc7c06f2311
