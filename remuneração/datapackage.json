@@ -1,0 +1,196 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "remuneracao-01-aaaa",
+      "path": "data/remuneracao-01-aaaa.csv",
+      "profile": "tabular-data-resource",
+      "schema": "remuneracao-schema.json",
+      "title": "Remuneração Janeiro",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "description": "Contém dados dos componentes da remuneração mensal dos servidores do poder Executivo do Estado de Minas Gerais",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
+    },
+    {
+      "name": "remuneracao-02-aaaa-",
+      "path": "data/remuneracao-02-aaaa.csv",
+      "profile": "tabular-data-resource",
+      "schema": "remuneracao-schema.json",
+      "description": "Contém dados dos componentes da remuneração mensal dos servidores do poder Executivo do Estado de Minas Gerais",
+      "title": "Remuneração Fevereiro",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
+    },
+    {
+      "name": "remuneracao-03-aaaa",
+      "path": "data/remuneracao-03-aaaa.csv",
+      "profile": "tabular-data-resource",
+      "schema": "remuneracao-schema.json",
+      "description": "Contém dados dos componentes da remuneração mensal dos servidores do poder Executivo do Estado de Minas Gerais",
+      "title": "Remuneração Março",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
+    },
+    {
+      "name": "remuneracao-04-aaaa",
+      "path": "data/remuneracao-04-aaaa.csv",
+      "profile": "tabular-data-resource",
+      "schema": "remuneracao-schema.json",
+      "description": "Contém dados dos componentes da remuneração mensal dos servidores do poder Executivo do Estado de Minas Gerais",
+      "title": "Remuneração Abril",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
+    },
+    {
+      "name": "remuneracao-05-aaaa",
+      "path": "data/remuneracao-05-aaaa.csv",
+      "profile": "tabular-data-resource",
+      "schema": "remuneracao-schema.json",
+      "description": "Contém dados dos componentes da remuneração mensal dos servidores do poder Executivo do Estado de Minas Gerais",
+      "title": "Remuneração Maio",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
+    },
+    {
+      "name": "remuneracao-06-aaaa",
+      "path": "data/remuneracao-06-aaaa.csv",
+      "profile": "tabular-data-resource",
+      "schema": "remuneracao-schema.json",
+      "description": "Contém dados dos componentes da remuneração mensal dos servidores do poder Executivo do Estado de Minas Gerais",
+      "title": "Remuneração Junho",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
+    },
+    {
+      "name": "remuneracao-07-aaaa",
+      "path": "data/remuneracao-07-aaaa.csv",
+      "profile": "tabular-data-resource",
+      "schema": "remuneracao-schema.json",
+      "description": "Contém dados dos componentes da remuneração mensal dos servidores do poder Executivo do Estado de Minas Gerais",
+      "title": "Remuneração Julho",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
+    },
+    {
+      "name": "remuneracao-08-aaaa",
+      "path": "data/remuneracao-08-aaaa.csv",
+      "profile": "tabular-data-resource",
+      "schema": "remuneracao-schema.json",
+      "description": "Contém dados dos componentes da remuneração mensal dos servidores do poder Executivo do Estado de Minas Gerais",
+      "title": "Remuneração Agosto",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
+    },
+    {
+      "name": "remuneracao-09-aaaa",
+      "path": "data/remuneracao-09-aaaa.csv",
+      "profile": "tabular-data-resource",
+      "schema": "remuneracao-schema.json",
+      "description": "Contém dados dos componentes da remuneração mensal dos servidores do poder Executivo do Estado de Minas Gerais",
+      "title": "Remuneração Setembro",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
+    },
+    {
+      "name": "remuneracao-10-aaaa",
+      "path": "data/remuneracao-10-aaaa.csv",
+      "profile": "tabular-data-resource",
+      "schema": "remuneracao-schema.json",
+      "description": "Contém dados dos componentes da remuneração mensal dos servidores do poder Executivo do Estado de Minas Gerais",
+      "title": "Remuneração Outubro",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
+    },
+    {
+      "name": "remuneracao-11-aaaa",
+      "path": "data/remuneracao-11-aaaa.csv",
+      "profile": "tabular-data-resource",
+      "schema": "remuneracao-schema.json",
+      "description": "Contém dados dos componentes da remuneração mensal dos servidores do poder Executivo do Estado de Minas Gerais",
+      "title": "Remuneração Novembro",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
+    },
+    {
+      "name": "remuneracao-12-aaaa",
+      "path": "data/remuneracao-12-aaaa.csv",
+      "profile": "tabular-data-resource",
+      "schema": "remuneracao-schema.json",
+      "description": "Contém dados dos componentes da remuneração mensal dos servidores do poder Executivo do Estado de Minas Gerais",
+      "title": "Remuneração Dezembro",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
+    },
+    {
+      "name": "decimo-terceiro",
+      "path": "data/remuneracao-13-aaaa",
+      "profile": "tabular-data-resource",
+      "schema": "remuneracao-schema.json",
+      "title": "Gratificação Natalina",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "description": "Contém dados da gratificação assegurada ao servidor civil ou militar a título de décimo terceiro salário",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
+    },
+  ],
+  "keywords": [
+    "salário",
+    "remuneração"
+  ],
+  "name": "remuneracao",
+  "title": "Remuneração",
+  "description": "Remuneração dos Servidores do Poder Executivo ",
+  "private": "false",
+  "state": "active",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Andre Amorim",
+      "role": "author"
+    }
+  ]
+}
