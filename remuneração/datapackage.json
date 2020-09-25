@@ -156,19 +156,6 @@
       "missingValues": ["NA"],
       "dialect": {
       "delimiter": ";"}
-    },
-    {
-      "name": "decimo-terceiro",
-      "path": "data/remuneracao-13-aaaa",
-      "profile": "tabular-data-resource",
-      "schema": "remuneracao-schema.json",
-      "title": "Gratificação Natalina",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
-      "description": "Contém dados da gratificação assegurada ao servidor civil ou militar a título de décimo terceiro salário",
-      "missingValues": ["NA"],
-      "dialect": {
-      "delimiter": ";"}
     }
   ],
   "keywords": [
