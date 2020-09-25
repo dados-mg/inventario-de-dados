@@ -169,7 +169,7 @@
       "missingValues": ["NA"],
       "dialect": {
       "delimiter": ";"}
-    },
+    }
   ],
   "keywords": [
     "salário",
