@@ -1,0 +1,225 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "dm-poder",
+      "path": "dm-poder.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "ID_PODER",
+            "type": "integer",
+            "format": "default",
+            "title": "ID do Poder",
+            "description": "Código que relaciona os dados"
+          },
+          {
+            "name": "CD_PODER",
+            "type": "integer",
+            "format": "default",
+            "title": "Código do Poder",
+            "description": "Código do Poder"
+          },
+          {
+            "name": "NOME ",
+            "type": "string",
+            "format": "default",
+            "description": "Três poderes formam o Estado: Executivo, Legislativo e Judiciário. Contém um conjunto de órgãos e entidades e atuam separadamente, com independência e harmonia. Aqui, o Ministério Público está colocado à parte.",
+            "title": "Poder"
+          }
+        ]
+      },
+      "title": "Poder",
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "Tabela com dados dos poderes do Estado de Minas Gerais.",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
+    },
+    {
+      "name": "dm-unidade-orc",
+      "path": "dm-unidade-orc.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "ID_UNIDADE_ORC",
+            "type": "integer",
+            "format": "default",
+            "title": "ID da Unidade Orçamentária",
+            "description": "Código que relaciona dos dados"
+          },
+          {
+            "name": "SQA_UNIDADE_ORCAM",
+            "type": "integer",
+            "format": "default",
+            "title": "SQA da Unidade Orçamentária"
+          },
+          {
+            "name": "ANO_EXERCICIO",
+            "type": "integer",
+            "format": "default",
+            "title": "Ano de exercício da Unidade Orçamentária",
+            "description": "Ano de exercício da Unidade Orçamentária"
+          },
+          {
+            "name": "CD_UNIDADE_ORC",
+            "type": "integer",
+            "format": "default",
+            "title": "Código da Unidade Orçamentária",
+            "description": "Código da Unidade Orçamentária"
+          },
+          {
+            "name": "NOME",
+            "type": "string",
+            "format": "default",
+            "title": "Nome da Unidade Orçamentária",
+            "description": "Nome da Unidade Orçametária que executou a despesa"
+          }
+        ]
+      },
+      "title": "Unidade Orçamentária",
+      "format": "text/csv",
+      "encoding": "uft-8",
+      "description": "Tabela referente aos órgãos e entidades do Estado de Minas Gerais.",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
+    },
+    {
+      "name": "ft-pessoal-desp",
+      "path": "ft-pessoal-desp.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "ID_TEMPO",
+            "type": "integer",
+            "format": "default",
+            "title": "ID Tempo",
+            "description": "Código identificador que relaciona os dados com a tabela DM_TEMPO_DIARIO"
+          },
+          {
+            "name": "ID_PODER",
+            "type": "integer",
+            "format": "default",
+            "title": "ID do Poder",
+            "description": "Código que relaciona os dados com a tabela DM_PODER"
+          },
+          {
+            "name": "ID_UNIDADE_ORC",
+            "type": "integer",
+            "format": "default",
+            "title": "ID da Unidade Orçamentária",
+            "description": "Código que relaciona dos dados DM_UNIDADE_ORC"
+          },
+          {
+            "name": "ANO_PARTICAO",
+            "type": "integer",
+            "format": "default",
+            "title": "Ano de participão",
+            "description": "Ano a que se refere os dados de cada linha dessa tabela"
+          },
+          {
+            "name": "VR_ATIVO",
+            "type": "integer",
+            "format": "default",
+            "description": "Despesas com pessoal ativo relativas a mandatos eletivos, cargos, funções ou empregos, civis, militares e de membros de Poder, compreendendo vencimentos e vantagens, fixas e variáveis, subsídios, incluindo as contribuições recolhidas pelo ente às entidades de previdência.",
+            "title": "Valor Pessoal Ativo"
+          },
+          {
+            "name": "VR_INATIVO",
+            "type": "integer",
+            "format": "default",
+            "title": "Valor Pessoal Inativo",
+            "description": "Despesas com pessoal inativo, relativas a cargos, funções ou empregos, civis, militares e de membros de Poder, com proventos da aposentadoria e reformas."
+          },
+          {
+            "name": "VR_PENSIONISTA",
+            "type": "integer",
+            "format": "default",
+            "title": "Valor Pessoal Pensionista",
+            "description": "Despesas com pensionistas, relativas a mandatos eletivos, cargos, funções ou empregos, civis, militares e de membros de Poder, com pensões, inclusive as de caráter indenizatório."
+          },
+          {
+            "name": "VR_CONTRATADO",
+            "type": "integer",
+            "format": "default",
+            "title": "Valor Contratados",
+            "description": "Despesas relativas à mão-de-obra constantes dos contratos de terceirização, incluindo as contribuições recolhidas pelo ente às entidades de previdência."
+          }
+        ]
+      },
+      "title": "Despesa com Pessoal",
+      "format": "text/csv",
+      "encoding": "uft-8",
+      "description": "Tabela de dados com valores de despesas com pessoal ativo, inativo, pensionistas e contratados.",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
+    },
+    {
+      "name": "dm-tempo-mensal",
+      "path": "dm-tempo-mensal.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "ID_TEMPO",
+            "type": "integer",
+            "format": "default",
+            "title": "ID Tempo",
+            "description": "Código identificador que relaciona os dados da tabela"
+          },
+          {
+            "name": "ANOMES_ISO",
+            "type": "integer",
+            "format": "default",
+            "title": "Ano e mês ISO",
+            "description": "Ano e mês no formato ISO"
+          },
+          {
+            "name": "MES",
+            "type": "integer",
+            "format": "default",
+            "title": "Mês ",
+            "description": "Mês"
+          },
+          {
+            "name": "ANO",
+            "type": "integer",
+            "format": "default",
+            "title": "Ano",
+            "description": "Ano"
+          },
+          {
+            "name": "ANOMES_FORMATADO",
+            "type": "integer",
+            "format": "default",
+            "title": "Ano e mês formatado",
+            "description": "Ano e mês formatado"
+          }
+        ]
+      },
+      "title": "Tempo mensal",
+      "description": "Tabela dimensão tempo mensal.",
+      "format": "text/csv",
+      "encoding": "uft-8",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
+    }
+  ],
+  "keywords": [
+    "despesa",
+    "pessoal",
+    "ativo",
+    "inativo",
+    "contratado"
+  ],
+  "name": "despesa-pessoal",
+  "title": "Despesa com Pessoal",
+  "description": "Despesa com pessoal do Estado - ativo, inativo, pensionista e contratado"
+}
