@@ -37,10 +37,13 @@
           }
         ]
       },
-      "format": "csv",
-      "encoding": "UTF-8",
+      "format": "text/csv",
+      "encoding": "utf-8",
       "title": "Convenente",
-      "description": "Tabela-dimensão Convenente"
+      "description": "Tabela-dimensão Convenente",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
     },
     {
       "name": "DM_CONVENIO",
@@ -176,10 +179,13 @@
           }
         ]
       },
-      "format": "csv",
-      "encoding": "UTF-8",
+      "format": "text/csv",
+      "encoding": "utf-8",
       "title": "Convenio",
-      "description": "Tabela-dimensão Convênio"
+      "description": "Tabela-dimensão Convênio",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
     },
     {
       "name": "DM_MUNICIPIO",
@@ -225,9 +231,12 @@
         ]
       },
       "title": "Município",
-      "format": "csv",
-      "encoding": "UTF-8",
-      "description": "Tabela dimensão Município"
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "Tabela dimensão Município",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
     },
     {
       "name": "DM_ORGAO_CONCEDENTE",
@@ -266,9 +275,12 @@
         ]
       },
       "title": "Órgão Concedente",
-      "format": "csv",
-      "encoding": "UTF-8",
-      "description": "Tabela-dimensão Órgão Concedente"
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "Tabela-dimensão Órgão Concedente",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
     },
     {
       "name": "DM_SITUACAO_CONVENIO",
@@ -307,9 +319,12 @@
         ]
       },
       "title": "Situação do Convênio",
-      "format": "csv",
-      "encoding": "UTF-8",
-      "description": "Tabela-Dimensão Situação do Convênio"
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "Tabela-Dimensão Situação do Convênio",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
     },
     {
       "name": "DM_TEMPO_DIARIO",
@@ -362,9 +377,12 @@
         ]
       },
       "title": "Tempo Diário",
-      "format": "csv",
-      "encoding": "UTF-8",
-      "description": "Tabela-Dimensão Tempo Diário"
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "Tabela-Dimensão Tempo Diário",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
     },
     {
       "name": "DM_TIPO_ATENDIMENTO",
@@ -403,9 +421,12 @@
         ]
       },
       "title": "Tipo de Atendimento",
-      "format": "csv",
-      "encoding": "UTF-8",
-      "description": "Tabela-Dimensão do Tipo de Atendimento"
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "Tabela-Dimensão do Tipo de Atendimento",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
     },
     {
       "name": "FT_CONVENIO_2017",
@@ -460,49 +481,58 @@
             "type": "integer",
             "format": "default",
             "description": "Valor atual do concedente\n",
-            "title": "Valor do concedente "
+            "title": "Valor do concedente ",
+            "decimalChar": ","
           },
           {
             "name": "VR_EMEN_PARL_ATUAL",
             "type": "integer",
             "format": "default",
             "description": "Valor atual da emenda parlamentar\n",
-            "title": "Valor da emenda parlamentar "
+            "title": "Valor da emenda parlamentar ",
+            "decimalChar": ","
           },
           {
             "name": "VR_INTERV_ATUAL",
             "type": "integer",
             "format": "default",
             "description": "Valor atual do interveniente \n",
-            "title": "Valor do interveniente "
+            "title": "Valor do interveniente ",
+            "decimalChar": ","
           },
           {
             "name": "VR_CONTRA_ATUAL",
             "type": "integer",
             "format": "default",
             "description": "Valor atual da contrapartida \n",
-            "title": "Valor da contrapartida "
+            "title": "Valor da contrapartida ",
+            "decimalChar": ","
           },
           {
             "name": "VR_TOTAL_ATUAL",
             "type": "integer",
             "format": "default",
             "description": "Valor total do convênio atual\n",
-            "title": "Valor total do convênio "
+            "title": "Valor total do convênio ",
+            "decimalChar": ","
           },
           {
             "name": "VR_REP_CONCEDE_ATUAL",
             "type": "integer",
             "format": "default",
             "description": "Valor repassado (SIAFI) pelo concedente.\n",
-            "title": "Valor repassado pelo concedente"
+            "title": "Valor repassado pelo concedente",
+            "decimalChar": ","
           }
         ]
       },
       "title": "Convênio",
-      "format": "csv",
-      "encoding": "UTF-8",
-      "description": "Tabela-fato Convênio"
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "Tabela-fato Convênio",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
     },
     {
       "name": "resFT_CONVENIO_TIPOATENDIMENTO",
@@ -571,49 +601,58 @@
             "type": "integer",
             "format": "default",
             "description": "Valor do concedente atual.\n",
-            "title": "Valor do concedente"
+            "title": "Valor do concedente",
+            "decimalChar": ","
           },
           {
             "name": "VR_EMEN_PARL_ATUAL",
             "type": "integer",
             "format": "default",
             "description": "Valor da emenda parlamentar atual\n",
-            "title": "Valor da emente"
+            "title": "Valor da emente",
+            "decimalChar": ","
           },
           {
             "name": "VR_INTERV_ATUAL",
             "type": "integer",
             "format": "default",
             "description": "Valor do interveniente atual\n",
-            "title": "Valor do interveniente"
+            "title": "Valor do interveniente",
+            "decimalChar": ","
           },
           {
             "name": "VR_CONTRA_ATUAL",
             "type": "integer",
             "format": "default",
             "description": "Valor da contrapartida atual\n",
-            "title": "Valor da contrapartida"
+            "title": "Valor da contrapartida",
+            "decimalChar": ","
           },
           {
             "name": "VR_TOTAL_ATUAL",
             "type": "integer",
             "format": "default",
             "description": "Valor total do convênio atual\n",
-            "title": "Valor atual do convênio"
+            "title": "Valor atual do convênio",
+            "decimalChar": ","
           },
           {
             "name": "VR_TOTAL_PUBLIC",
             "type": "integer",
             "format": "default",
             "description": "Valor total do convênio no momento da publicação\n",
-            "title": "Valor publicado"
+            "title": "Valor publicado",
+            "decimalChar": ","
           }
         ]
       },
       "title": "Convênio por tipo de atendimento",
       "description": "Tabela-fato de Convênio por tipo de atendimento",
-      "format": "csv",
-      "encoding": "UTF-8"
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
     }
   ],
   "keywords": [
