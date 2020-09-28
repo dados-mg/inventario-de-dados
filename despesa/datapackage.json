@@ -38,9 +38,12 @@
         ]
       },
       "title": "Ação",
-      "format": "csv",
-      "encoding": "UTF-8",
-      "description": "Tabela que agrega dados das ações, que são conjuntos de operações das quais resulta a entrega de um produto (bem, serviço ou transferência financeira) que contribui para atender ao objetivo de um programa."
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "Tabela que agrega dados das ações, que são conjuntos de operações das quais resulta a entrega de um produto (bem, serviço ou transferência financeira) que contribui para atender ao objetivo de um programa.",
+      "missingValues": ["NA", ""],
+      "dialect": {
+      "delimiter": ";"}
     },
     {
       "name": "dm-categoria-economica",
@@ -72,9 +75,12 @@
         ]
       },
       "title": "Categoria Econômica",
-      "format": "csv",
-      "encoding": "UTF-8",
-      "description": "Tabela que agrega dados da Classificação Econômica da despesa: corrente (funcionamento dos órgãos, pagamentos dos servidores, etc) ou de capital (obras, equipamentos, etc)"
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "Tabela que agrega dados da Classificação Econômica da despesa: corrente (funcionamento dos órgãos, pagamentos dos servidores, etc) ou de capital (obras, equipamentos, etc)",
+      "missingValues": ["NA", ""],
+      "dialect": {
+      "delimiter": ";"}
     },
     {
       "name": "dm-elemento-despesa",
@@ -106,19 +112,25 @@
         ]
       },
       "title": "Elemento de despesa",
-      "format": "csv",
-      "encoding": "UTF-8",
-      "description": "Tabela que agrega dados do Elemento de Despesa, que é a classificação da despesa quanto ao objeto do gasto (diárias, material de consumo, pensões, locação de imóveis, etc.)."
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "Tabela que agrega dados do Elemento de Despesa, que é a classificação da despesa quanto ao objeto do gasto (diárias, material de consumo, pensões, locação de imóveis, etc.).",
+      "missingValues": ["NA", ""],
+      "dialect": {
+      "delimiter": ";"}
     },
     {
       "name": "dm-empenho",
       "profile": "tabular-data-resource",
       "schema": {},
       "title": "Empenho",
-      "format": "csv",
-      "encoding": "UTF-8",
-      "description": "Tabela que contém dados sobre os empenhos"
-    },
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "Tabela que contém dados sobre os empenhos",
+      "missingValues": ["NA", ""],
+      "dialect": {
+      "delimiter": ";"}
+    },    
     {
       "name": "dm-fonte",
       "path": "dm_fonte.csv",
@@ -149,9 +161,12 @@
         ]
       },
       "title": "Fonte",
-      "format": "csv",
-      "encoding": "UTF-8",
-      "description": "Tabela com dados da classificação da origem dos recursos utilizados para realizar esta despesa."
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "Tabela com dados da classificação da origem dos recursos utilizados para realizar esta despesa.",
+      "missingValues": ["NA", ""],
+      "dialect": {
+      "delimiter": ";"}
     },
     {
       "name": "dm-funcao-despesa",
@@ -190,9 +205,12 @@
         ]
       },
       "title": "Função",
-      "format": "csv",
-      "encoding": "UTF-8",
-      "description": "Tabela com dados da classificação das áreas de atuação do setor público nas quais são gastos os recursos, tais como saúde, educação, administração, transportes, etc."
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "Tabela com dados da classificação das áreas de atuação do setor público nas quais são gastos os recursos, tais como saúde, educação, administração, transportes, etc.",
+      "missingValues": ["NA", ""],
+      "dialect": {
+      "delimiter": ";"}
     },
     {
       "name": "dm-grupo-despesa",
@@ -224,9 +242,12 @@
         ]
       },
       "title": "Grupo da despesa",
-      "format": "csv",
-      "encoding": "UTF-8",
-      "description": "Tabela que contém dados da classificação da despesa que agrega elementos de despesa quanto ao objeto do gasto (pessoal, juros, amortização da dívida, investimentos, etc.)."
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "Tabela que contém dados da classificação da despesa que agrega elementos de despesa quanto ao objeto do gasto (pessoal, juros, amortização da dívida, investimentos, etc.).",
+      "missingValues": ["NA", ""],
+      "dialect": {
+      "delimiter": ";"}
     },
     {
       "name": "dm-item-despesa",
@@ -258,9 +279,12 @@
         ]
       },
       "title": "Item de despesa",
-      "format": "csv",
-      "encoding": "UTF-8",
-      "description": "Tabela que contém dados sobre o item de despesa, que é o desdobramento do elemento de despesa (material gráfico, medicamentos, diárias, etc)."
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "Tabela que contém dados sobre o item de despesa, que é o desdobramento do elemento de despesa (material gráfico, medicamentos, diárias, etc).",
+      "missingValues": ["NA", ""],
+      "dialect": {
+      "delimiter": ";"}
     },
     {
       "name": "dm-modalidade-aplicacao",
@@ -292,9 +316,12 @@
         ]
       },
       "title": "Modalidade de aplicação",
-      "format": "csv",
-      "encoding": "UTF-8",
-      "description": "Tabela com dados da modalidade de aplicação, que Indica se os recursos são aplicados diretamente por órgãos ou entidades no âmbito da mesma esfera de Governo ou por outro ente da Federação."
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "Tabela com dados da modalidade de aplicação, que Indica se os recursos são aplicados diretamente por órgãos ou entidades no âmbito da mesma esfera de Governo ou por outro ente da Federação.",
+      "missingValues": ["NA", ""],
+      "dialect": {
+      "delimiter": ";"}
     },
     {
       "name": "dm-procedencia",
@@ -326,9 +353,12 @@
         ]
       },
       "title": "Procedência",
-      "format": "csv",
-      "encoding": "UTF-8",
-      "description": "Tabela com dados da procedência dos recursos, que identifica a origem e a utilização dos recursos. Ex.: se os recursos são para livre utilização, se foram transferidos de outra unidade orçamentária, se são para contrapartida a convênios, etc."
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "Tabela com dados da procedência dos recursos, que identifica a origem e a utilização dos recursos. Ex.: se os recursos são para livre utilização, se foram transferidos de outra unidade orçamentária, se são para contrapartida a convênios, etc.",
+      "missingValues": ["NA", ""],
+      "dialect": {
+      "delimiter": ";"}
     },
     {
       "name": "dm-programa",
@@ -366,9 +396,12 @@
         ]
       },
       "title": "Programa",
-      "format": "csv",
-      "encoding": "UTF-8",
-      "description": "Tabela com dados dos programas, que são conjuntos de ações para atender um problema ou demanda da sociedade."
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "Tabela com dados dos programas, que são conjuntos de ações para atender um problema ou demanda da sociedade.",
+      "missingValues": ["NA", ""],
+      "dialect": {
+      "delimiter": ";"}
     },
     {
       "name": "dm-subfuncao",
@@ -407,9 +440,12 @@
         ]
       },
       "title": "Subfunção",
-      "format": "csv",
-      "encoding": "UTF-8",
-      "description": "Tabela com dados da subfunção, que identifica a natureza básica das ações que se aglutinam em torno das funções."
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "Tabela com dados da subfunção, que identifica a natureza básica das ações que se aglutinam em torno das funções.",
+      "missingValues": ["NA", ""],
+      "dialect": {
+      "delimiter": ";"}
     },
     {
       "name": "dm-tempo-diario",
@@ -462,9 +498,12 @@
         ]
       },
       "title": "Tempo Diário",
-      "format": "csv",
-      "encoding": "UTF-8",
-      "description": "Tabela com dados de data"
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "Tabela com dados de data",
+      "missingValues": ["NA", ""],
+      "dialect": {
+      "delimiter": ";"}
     },
     {
       "name": "dm-tipo-documento",
@@ -496,8 +535,12 @@
         ]
       },
       "title": "Tipo de documento",
-      "format": "csv",
-      "encoding": "UTF-8"
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "",
+      "missingValues": ["NA", ""],
+      "dialect": {
+      "delimiter": ";"}
     },
     {
       "name": "dm-unidade-prcamentaria",
@@ -566,9 +609,12 @@
         ]
       },
       "title": "Unidade orçamentária",
-      "format": "csv",
-      "encoding": "UTF-8",
-      "description": "Tabela com dados sobre a unidade orçamentária responsável pela despesa"
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "Tabela com dados sobre a unidade orçamentária responsável pela despesa",
+      "missingValues": ["NA", ""],
+      "dialect": {
+      "delimiter": ";"}
     },
     {
       "name": "dm-favorecido",
@@ -612,9 +658,12 @@
         ]
       },
       "title": "Favorecido",
-      "format": "csv",
-      "encoding": "UTF-8",
-      "description": "Tabela com dados do beneficiário da despesa"
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "Tabela com dados do beneficiário da despesa",
+      "missingValues": ["NA", ""],
+      "dialect": {
+      "delimiter": ";"}
     },
     {
       "name": "ft-despesa",
@@ -797,9 +846,12 @@
         ]
       },
       "title": "Despesa",
-      "format": "csv",
-      "encoding": "UTF-8",
-      "description": "tabela que relaciona as chaves numéricas das demais tabelas-dimensão aos valores empenhados, liquidados e pagos"
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "tabela que relaciona as chaves numéricas das demais tabelas-dimensão aos valores empenhados, liquidados e pagos",
+      "missingValues": ["NA", ""],
+      "dialect": {
+      "delimiter": ";"}
     }
   ],
   "keywords": [

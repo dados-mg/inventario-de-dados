@@ -10,7 +10,7 @@
       "mediatype": "text/csv",
       "encoding": "utf-8",
       "description": "Contém dados dos componentes da remuneração mensal dos servidores do poder Executivo do Estado de Minas Gerais",
-      "missingValues": ["NA"],
+      "missingValues": ["NA", ""],
       "dialect": {
       "delimiter": ";"}
     },
@@ -23,7 +23,7 @@
       "title": "Remuneração Fevereiro",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "missingValues": ["NA"],
+      "missingValues": ["NA", ""],
       "dialect": {
       "delimiter": ";"}
     },
@@ -36,7 +36,7 @@
       "title": "Remuneração Março",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "missingValues": ["NA"],
+      "missingValues": ["NA", ""],
       "dialect": {
       "delimiter": ";"}
     },
@@ -49,7 +49,7 @@
       "title": "Remuneração Abril",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "missingValues": ["NA"],
+      "missingValues": ["NA", ""],
       "dialect": {
       "delimiter": ";"}
     },
@@ -62,7 +62,7 @@
       "title": "Remuneração Maio",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "missingValues": ["NA"],
+      "missingValues": ["NA", ""],
       "dialect": {
       "delimiter": ";"}
     },
@@ -75,7 +75,7 @@
       "title": "Remuneração Junho",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "missingValues": ["NA"],
+      "missingValues": ["NA", ""],
       "dialect": {
       "delimiter": ";"}
     },
@@ -88,7 +88,7 @@
       "title": "Remuneração Julho",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "missingValues": ["NA"],
+      "missingValues": ["NA", ""],
       "dialect": {
       "delimiter": ";"}
     },
@@ -101,7 +101,7 @@
       "title": "Remuneração Agosto",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "missingValues": ["NA"],
+      "missingValues": ["NA", ""],
       "dialect": {
       "delimiter": ";"}
     },
@@ -114,7 +114,7 @@
       "title": "Remuneração Setembro",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "missingValues": ["NA"],
+      "missingValues": ["NA", ""],
       "dialect": {
       "delimiter": ";"}
     },
@@ -127,7 +127,7 @@
       "title": "Remuneração Outubro",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "missingValues": ["NA"],
+      "missingValues": ["NA", ""],
       "dialect": {
       "delimiter": ";"}
     },
@@ -140,7 +140,7 @@
       "title": "Remuneração Novembro",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "missingValues": ["NA"],
+      "missingValues": ["NA", ""],
       "dialect": {
       "delimiter": ";"}
     },
@@ -153,7 +153,7 @@
       "title": "Remuneração Dezembro",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "missingValues": ["NA"],
+      "missingValues": ["NA", ""],
       "dialect": {
       "delimiter": ";"}
     }
