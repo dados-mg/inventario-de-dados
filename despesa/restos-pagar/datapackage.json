@@ -1,0 +1,618 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+      {
+      "name": "dm-categoria-economica",
+      "path": "dm_categ_econ.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "id_categ_econ",
+            "type": "integer",
+            "format": "default",
+            "title": "ID da categoria econômica",
+            "description": "Chave numérica que relaciona os dados da tabela de Categoria Econômica da despesa"
+          },
+          {
+            "name": "cd_categ_econ",
+            "type": "integer",
+            "format": "default",
+            "title": "Código da Categoria Econômica",
+            "description": "Código da Categoria Econômica da despesa. Valores possíveis: 0, 3, 4, 9"
+          },
+          {
+            "name": "nome",
+            "type": "string",
+            "format": "default",
+            "title": "Nome da Categoria Econômica",
+            "description": "Classificação da despesa quanto ao impacto econômico que ela gera, podendo ser corrente (funcionamento dos órgãos, pagamentos dos servidores, etc) ou de capital (obras, equipamentos, etc)."
+          }
+        ]
+      },
+      "title": "Categoria Econômica",
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "Tabela que agrega dados da Classificação Econômica da despesa: corrente (funcionamento dos órgãos, pagamentos dos servidores, etc) ou de capital (obras, equipamentos, etc)",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
+    },
+    {
+      "name": "dm-elemento-despesa",
+      "path": "dm_elemento_desp.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "id_elemento",
+            "type": "integer",
+            "format": "default",
+            "title": "ID do elemento de despesa",
+            "description": "Chave numérica que relaciona dados da tabela de Elemento de Despesa"
+          },
+          {
+            "name": "cd_elemento",
+            "type": "integer",
+            "format": "default",
+            "title": "Código do elemento de despesa",
+            "description": "Código do elemento de despesa."
+          },
+          {
+            "name": "nome",
+            "type": "string",
+            "format": "default",
+            "description": "classificação da despesa quanto ao objeto do gasto (diárias, material de consumo, pensões, locação de imóveis, etc.).",
+            "title": "Nome do elemento de despesa"
+          }
+        ]
+      },
+      "title": "Elemento de despesa",
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "Tabela que agrega dados do Elemento de Despesa, que é a classificação da despesa quanto ao objeto do gasto (diárias, material de consumo, pensões, locação de imóveis, etc.).",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
+    },
+    {
+      "name": "dm-empenho",
+      "profile": "tabular-data-resource",
+      "schema": {},
+      "title": "Empenho",
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "Tabela que contém dados sobre os empenhos",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
+    },
+    {
+      "name": "dm-fonte",
+      "path": "dm_fonte.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "id_fonte",
+            "type": "integer",
+            "format": "default",
+            "title": "ID da fonte ",
+            "description": "Chave numérica que relaciona os dados da tabela de  fonte de recursos"
+          },
+          {
+            "name": "cd_fonte",
+            "type": "integer",
+            "format": "default",
+            "title": "Código da Fonte",
+            "description": "Código da fonte de recursos"
+          },
+          {
+            "name": "nome",
+            "type": "string",
+            "format": "default",
+            "title": "Nome da fonte",
+            "description": "Origem dos recursos utilizados para realizar a despesa."
+          }
+        ]
+      },
+      "title": "Fonte",
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "Tabela com dados da classificação da origem dos recursos utilizados para realizar esta despesa.",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
+    },
+    {
+      "name": "dm-grupo-despesa",
+      "path": "dm_grupo_desp.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "id_grupo",
+            "type": "integer",
+            "format": "default",
+            "title": "ID do grupo da despesa",
+            "description": "Chave numérica que relaciona os dados da tabela de grupo da despesa"
+          },
+          {
+            "name": "cd_grupo",
+            "type": "integer",
+            "format": "default",
+            "title": "Código do grupo da despesa",
+            "description": "Código do grupo da despesa"
+          },
+          {
+            "name": "nome",
+            "type": "string",
+            "format": "default",
+            "title": "Nome do grupo da despesa",
+            "description": "Classificação da despesa que agrega elementos de despesa quanto ao objeto do gasto (pessoal, juros, amortização da dívida, investimentos, etc.)."
+          }
+        ]
+      },
+      "title": "Grupo da despesa",
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "Tabela que contém dados da classificação da despesa que agrega elementos de despesa quanto ao objeto do gasto (pessoal, juros, amortização da dívida, investimentos, etc.).",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
+    },
+    {
+      "name": "dm-item-despesa",
+      "path": "dm_itemdesp.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "id_item_desp",
+            "type": "integer",
+            "format": "default",
+            "title": "ID do item de despesa",
+            "description": "Chave numérica que relaciona os dados da tabela de Item de Despesa"
+          },
+          {
+            "name": "cd_item_desp",
+            "type": "integer",
+            "format": "default",
+            "title": "Código do Item de Despesa",
+            "description": "Código do Item de Despesa"
+          },
+          {
+            "name": "nome",
+            "type": "string",
+            "format": "default",
+            "title": "Nome do item de despesa",
+            "description": "Desdobramento do elemento de despesa (material gráfico, medicamentos, diárias, etc)."
+          }
+        ]
+      },
+      "title": "Item de despesa",
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "Tabela que contém dados sobre o item de despesa, que é o desdobramento do elemento de despesa (material gráfico, medicamentos, diárias, etc).",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
+    },
+    {
+      "name": "dm-modalidade-aplicacao",
+      "path": "dm_modalidade_aplic.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "id_modalidade_aplic",
+            "type": "integer",
+            "format": "default",
+            "title": "ID da modalidade de aplicação",
+            "description": "Chave numérica que relaciona os dados da tabela de modalidade de aplicação"
+          },
+          {
+            "name": "cd_modalidade_aplic",
+            "type": "integer",
+            "format": "default",
+            "title": "Código da modalidade de aplicação",
+            "description": "Código da modalidade de aplicação"
+          },
+          {
+            "name": "nome",
+            "type": "string",
+            "format": "default",
+            "title": "Nome da modalidade de aplicação",
+            "description": "Indica se os recursos são aplicados diretamente por órgãos ou entidades no âmbito da mesma esfera de Governo ou por outro ente da Federação."
+          }
+        ]
+      },
+      "title": "Modalidade de aplicação",
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "Tabela com dados da modalidade de aplicação, que Indica se os recursos são aplicados diretamente por órgãos ou entidades no âmbito da mesma esfera de Governo ou por outro ente da Federação.",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
+    },
+    {
+      "name": "dm-tempo-anual",
+      "path": "dm_tempo_anual.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "id_tempo",
+            "type": "integer",
+            "format": "default",
+            "title": "ID tempo",
+            "description": "Chave numérica que relaciona dados da tabela de Tempo"
+          },
+          {
+            "name": "ano",
+            "type": "integer",
+            "format": "default",
+            "title": "Ano",
+            "description": "Ano"
+          }
+        ]
+      },
+      "title": "Tempo Anual",
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "Tabela com dados de data",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
+    },
+    {
+      "name": "dm-tipo-documento",
+      "path": "dm_tipo_documento.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "id_tipo_documento",
+            "type": "integer",
+            "format": "default",
+            "title": "ID do tipo do documento",
+            "description": "Chave numérica que relaciona dados da tabela de Tipo de Documento"
+          },
+          {
+            "name": "cd_tipo_documento",
+            "type": "integer",
+            "format": "default",
+            "title": "Código do tipo do documento",
+            "description": "Código do tipo do documento"
+          },
+          {
+            "name": "nome",
+            "type": "string",
+            "format": "default",
+            "title": "Nome do tipo do documento",
+            "description": "Nome do tipo do documento"
+          }
+        ]
+      },
+      "title": "Tipo de documento",
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
+    },
+    {
+      "name": "dm-unidade-orcamentaria",
+      "path": "dm_unidade_orc.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "id_unidade_orc",
+            "type": "integer",
+            "format": "default",
+            "title": "ID da unidade orçamentária",
+            "description": "Chave numérica que relaciona dados da tabela de Unidade Orçamentária"
+          },
+          {
+            "name": "sqa_unidade_orcam",
+            "type": "integer",
+            "format": "default",
+            "title": "SQA da unidade orçamentária",
+            "description": "SQA da unidade orçamentária"
+          },
+          {
+            "name": "ano_exercicio",
+            "type": "integer",
+            "format": "default",
+            "title": "Ano de exercício",
+            "description": "Ano de exercício da unidade orçamentária"
+          },
+          {
+            "name": "cd_unidade_orc",
+            "type": "integer",
+            "format": "default",
+            "title": "Código da unidade orçamentária",
+            "description": "Código da unidade orçamentária"
+          },
+          {
+            "name": "id_grupo_administracao",
+            "type": "integer",
+            "format": "default",
+            "title": "Id do grupo de administração"
+          },
+          {
+            "name": "grupo_admiistracao",
+            "type": "string",
+            "format": "default",
+            "title": "Nome do grupo de administração"
+          },
+          {
+            "name": "id_administracao",
+            "type": "integer",
+            "format": "default",
+            "title": "ID da administração"
+          },
+          {
+            "name": "administracao",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "nome",
+            "type": "string",
+            "format": "default",
+            "title": "Nome da unidade orçamentária",
+            "description": "Órgão ou entidade que realiza a despesa"
+          }
+        ]
+      },
+      "title": "Unidade orçamentária",
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "Tabela com dados sobre a unidade orçamentária responsável pela despesa",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
+    },
+    {
+      "name": "dm-favorecido",
+      "path": "dmfavorecido.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "id_favorecido",
+            "type": "string",
+            "format": "default",
+            "title": "ID do favorecido",
+            "description": "Chave numérica que relaciona os dados da tabela de Favorecido"
+          },
+          {
+            "name": "SQA_favorecido",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "tipo_documento",
+            "type": "string",
+            "format": "default",
+            "title": "Tipo de documento ",
+            "description": "Tipo de documento do favorecido"
+          },
+          {
+            "name": "nr_documento",
+            "type": "string",
+            "format": "default",
+            "title": "Número do documento ",
+            "description": "Número do documento do favorecido"
+          },
+          {
+            "name": "Nome",
+            "type": "string",
+            "format": "default",
+            "title": "Nome do favorecido",
+            "description": "Beneficiário da despesa"
+          }
+        ]
+      },
+      "title": "Favorecido",
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "Tabela com dados do beneficiário da despesa",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
+    },
+    {
+      "name": "ft-restos-pagar",
+      "path": "ft-restos-pagar.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "id_tempo",
+            "type": "integer",
+            "format": "default",
+            "title": "ID tempo"
+          },
+          {
+            "name": "id_categ_econ",
+            "type": "integer",
+            "format": "default",
+            "title": "ID categoria econômica"
+          },
+          {
+            "name": "id_grupo",
+            "type": "integer",
+            "format": "default",
+            "title": "ID grupo"
+          },
+          {
+            "name": "id_elemento",
+            "type": "integer",
+            "format": "default",
+            "title": "ID elemento"
+          },
+          {
+            "name": "id_item",
+            "type": "integer",
+            "format": "default",
+            "title": "ID item"
+          },
+          {
+            "name": "id_fonte",
+            "type": "integer",
+            "format": "default",
+            "title": "ID fonte"
+          },
+          {
+            "name": "id_modalidade_aplic",
+            "type": "integer",
+            "format": "default",
+            "title": "ID modalidade aplicação"
+          },
+          {
+            "name": "id_unidade_orc",
+            "type": "integer",
+            "format": "default",
+            "title": "ID unidade orçamentária"
+          },
+          {
+            "name": "id_favorecido",
+            "type": "integer",
+            "format": "default",
+            "title": "ID favorecido"
+          },
+          {
+            "name": "id_empenho",
+            "type": "integer",
+            "format": "default",
+            "title": "ID empenho"
+          },
+          {
+            "name": "id_tipo_documento",
+            "type": "integer",
+            "format": "default",
+            "title": "ID tipo do documento"
+          },
+          {
+            "name": "sqa_liquidacao",
+            "type": "integer",
+            "format": "default",
+            "title": "SQA da liquidação"
+          },
+          {
+            "name": "sqa_pagamento",
+            "type": "integer",
+            "format": "default",
+            "title": "SQA do pagamento"
+          },
+          {
+            "name": "ano_origem",
+            "type": "integer",
+            "format": "default",
+            "title": "Ano de origem do resto a pagar"
+          },
+          {
+            "name": "sqa_unidade_exec",
+            "type": "integer",
+            "format": "default",
+            "title": "SQA da unidade de exercício"
+          },
+          {
+            "name": "sqa_unidade_orc",
+            "type": "integer",
+            "format": "default",
+            "title": "SQA da unidade orçamentária"
+          },
+          {
+            "name": "cd_evento",
+            "type": "integer",
+            "format": "default",
+            "title": "Código do evento"
+          },
+          {
+            "name": "tp_operacao",
+            "type": "integer",
+            "format": "default",
+            "title": "Tipo da operação"
+          },
+          {
+            "name": "cd_documento",
+            "type": "integer",
+            "format": "default",
+            "title": "Código do documento"
+          },
+          {
+            "name": "nr_ordem",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "dt_documento",
+            "type": "date",
+            "format": "default"
+          },
+          {
+            "name": "ano_particao",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "vr_nao_processado",
+            "type": "integer",
+            "format": "default",
+            "title": "Valor não processado",
+            "decimalChar": ","
+          },
+          {
+            "name": "vr_processado",
+            "type": "integer",
+            "format": "default",
+            "title": "Valor processado",
+            "decimalChar": ","
+          },
+          {
+            "name": "vr_pago",
+            "type": "integer",
+            "format": "default",
+            "title": "Valor pago",
+            "decimalChar": ","
+          }
+        ]
+      },
+      "title": "Restos a pagar",
+      "format": "text/csv",
+      "encoding": "utf-8",
+      "description": "tabela que relaciona as chaves numéricas das demais tabelas-dimensão aos valores não-processados, processados e pagos",
+      "missingValues": ["NA"],
+      "dialect": {
+      "delimiter": ";"}
+    }
+  ],
+  "keywords": [
+    "restos a pagar",
+    "despesa",
+    "empenho",
+    "gastos",
+    "orçamento"
+  ],
+  "name": "restos-pagar",
+  "title": "Restos a pagar",
+  "description": "Restos a pagar do poder executivo do Estado de Minas Gerais",
+  "contributors": [
+    {
+      "title": "Andre Amorim",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-SA-4.0",
+      "title": "Creative Commons Attribution Share-Alike 4.0",
+      "path": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ]
+}
