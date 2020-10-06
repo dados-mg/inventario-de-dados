@@ -1,6 +1,6 @@
 ## Dado aberto
 
-* pressupostos - vide [art. 8 § 3º, da LAI](http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm#art8%C2%A73), que trata dos requisitos para transparência ativa nos sítios eletrônicos: 
+**pressupostos** - vide [art. 8 § 3º, da LAI](http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm#art8%C2%A73), que trata dos requisitos para transparência ativa nos sítios eletrônicos: 
 
 > + formato aberto, estruturado e legível por máquina (III);
 
@@ -12,7 +12,7 @@
 * Características e motivação da abertura e uso de dados: https://dados.gov.br/pagina/dados-abertos
 
 
-* escala de 5 estrelas: 
+**escala de 5 estrelas**: 
 
 Tim Berners-Lee, o pai da web, criou um modelo para classificar dados abertos publicados. Esse modelo é conhecido como o modelo das 5 estrelas, no qual dados com 1 estrela estão na forma mais pobre e simples, e dados com 5 estrelas são mais ricos e complexos.
 
@@ -31,7 +31,7 @@ A classificação proposta pelo Berners-Lee é a seguinte:
 _“Se os dados não estão disponíveis num formato aberto e legível por máquina, eles não podem ser reutilizados.” (David Eaves/Opendata Charter - principles)_
 
 
-#### FOrmatos de dados abertos: tabular, csv, json
+### Formatos de dados abertos: tabular, csv, json
 
 **dado tabular**:
 
