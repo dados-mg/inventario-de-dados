@@ -97,12 +97,15 @@ field     field
 
 adoção do padrão Frictionless Data, controle de versão dos conjuntos de dados em repositórios abertos no GitHub e validação automático dos dados via goodtables (serviço oferecido pela comunidade como o datapackage creator da Frictionless Data)
 
+* [Decreto Federal 8777/2016: art. 2º, IV](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8777.htm#art2): formato aberto implica que a especificação esteja documentada publicamente
+
 
 ## Padrão Frictionless Data:
 
 conjunto de ferramentas para interoperabilidade de dados, por meio de padrões e critérios técnicos para otimizar o armazenamento e os usos de dados
 
-* [Decreto Federal 8777/2016: art. 2º, IV](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8777.htm#art2): formato aberto implica que a especificação esteja documentada publicamente
+* Introdução ao datapackage: [workshop da Frictionless data](https://www.youtube.com/watch?v=EFQmudQP4io&feature=youtu.be&t=616)
+
 
 * [especificações do datapackage](https://specs.frictionlessdata.io/) = arquivo em formato json que descreve:
 
@@ -110,12 +113,17 @@ a) o conjunto de dados e seus metadados (como título, descrição, formato de a
 
 b) as colunas de cada recurso (arquivo ou URL) que contém (~ schema),
 
+
 * [datapackage creator](https://create.frictionlessdata.io/): ferramenta de auxílio à elaboração do arquivo datapackage.json que faz a descrição lógica do conjunto de dados, dos recursos e do dicionário de dados (variáveis) em formato json
+
+* como usar o datapackage: [guia rápido](https://www.youtube.com/watch?v=VrdPj28-L9g) e [workshop](https://www.youtube.com/watch?v=EFQmudQP4io&feature=youtu.be&t=998)
 
 
 ## Controle de versão
 
-* GitHub
+**GitHub**
+
+* [Curso da software carpentry](http://swcarpentry.github.io/git-novice/)
 
 * Validação automática contínua ([goodtables io](https://goodtables.io/)): checagem da exatidão da descrição lógica (datapackage.json) sobre o recurso físico (csv), a cada registro de alteração (commit) efetuado no reposiotório GitHub
 
