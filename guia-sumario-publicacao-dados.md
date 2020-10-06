@@ -19,17 +19,21 @@ Tim Berners-Lee, o pai da web, criou um modelo para classificar dados abertos pu
 A classificação proposta pelo Berners-Lee é a seguinte:
 
 ★ : dados disponíveis na web (não importa o formato) sob uma licença aberta. Por exemplo, um PDF.
+
 ★ ★ : dados disponíveis de forma estruturada. Por exemplo, um arquivo Excel.
+
 ★ ★ ★ : dados disponíveis em formatos não-proprietários. Por exemplo, um CSV.
+
 ★ ★ ★ ★ : use URIs para denotar os dados, assim outras pessoas podem criar links para eles. Por exemplo, um RDF.
+
 ★ ★ ★ ★ ★ : link os seus dados a outros. Por exemplo, um RDF que tenha links para outros RDF.
 
 _“Se os dados não estão disponíveis num formato aberto e legível por máquina, eles não podem ser reutilizados.” (David Eaves/Opendata Charter - principles)_
 
 
-#### Dado tabular
+#### FOrmatos de dados abertos: tabular, csv, json
 
-* dado tabular:
+**dado tabular**:
 
 ````
 field     field
@@ -42,13 +46,13 @@ field     field
  valA  |   valB  |  valC   |   valD    <--- Row
 ````
  
- * csv
+ **csv**:
 
  - definição, características e exemplos no [portal de Dados Abertos de Buenos Aires](https://datosgcba.github.io/guia-datos/guia-abiertos/#csv)
  
  - o que é, como editar, importar e exportar: https://rockcontent.com/br/blog/csv/
 
-* json:
+**json**:
 
 ````
 [
@@ -126,6 +130,9 @@ b) as colunas de cada recurso (arquivo ou URL) que contém (~ schema),
 
 
 ## Referências:
+
 * Toolkit do Gov.Br para dados abertos = https://github.com/dadosgovbr/kit
+
 * Escalas de Dados Abertos = https://imasters.com.br/devsecops/5-estrelas-dos-dados-abertos#:~:text=Esse%20modelo%20%C3%A9%20conhecido%20como,Berners%2DLee%20%C3%A9%20a%20seguinte%3A&text=%3A%20dados%20dispon%C3%ADveis%20na%20web%20(n%C3%A3o,formato)%20sob%20uma%20licen%C3%A7a%20aberta.
+
 * Formatos abertos de arquivos (em espanhol, do portal de Buenos Aires) = https://datosgcba.github.io/guia-datos/guia-abiertos/#formatos-abiertos-de-archivos
