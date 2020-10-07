@@ -1,6 +1,8 @@
 ## Dado aberto
 
-**pressupostos** - vide [art. 8 § 3º, da LAI](http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm#art8%C2%A73), que trata dos requisitos para transparência ativa nos sítios eletrônicos: 
+**pressupostos** 
+
+vide [art. 8 § 3º, da LAI](http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm#art8%C2%A73), que trata dos requisitos para transparência ativa nos sítios eletrônicos: 
 
 > + formato aberto, estruturado e legível por máquina (III);
 
@@ -10,6 +12,15 @@
 
 
 * Características e motivação da abertura e uso de dados: https://dados.gov.br/pagina/dados-abertos
+
+* [3 leis dos dados abertos](https://eaves.ca/2009/09/30/three-law-of-open-government-data/), por David Eaves7, professor da Harvard Kennedy School:
+
+_1. Se os dados não podem ser encontrados ou indexados na Web, eles não existem._
+
+_2. Se os dados não estão disponíveis em um formato aberto e legível por máquina, eles
+ não podem ser reutilizados._
+ 
+_3. Se dispositivos legais não permitem que os dados sejam partilhados, eles não são úteis_
 
 
 **escala de 5 estrelas**: 
