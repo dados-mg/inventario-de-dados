@@ -70,6 +70,8 @@ A classificação proposta pelo Berners-Lee é a seguinte:
 
 ### Formatos de dados abertos: tabular, csv, json
 
+Os formatos legíveis por máquina mais comuns são: CSV, XML, JSON, GeoJSON, XLS.
+
 **dado tabular**:
 
 ````
@@ -127,7 +129,27 @@ campo     campo
 
 * metadados
 
-Apresentam a estrutura dos dados (chaves, índices, colunas), as informações sobre o conjunto de dados (título, autor,assuntos, palavras-chave) e as informações de proveniência (editor, histórico de revisões,mudanças, fonte dos dados). Ampliam os recursos de busca e permitem a interoperabilidade entre diferentes sistemas
+É essencial fornecer informações que auxiliem pessoas e aplicações de computadores a compreenderem os dados, assim como outros aspectos importantes que descrevam o conjunto de dados ou a distribuição. Os metadados apresentam a estrutura dos dados (chaves, índices, colunas), as informações sobre o conjunto de dados (título, autor,assuntos, palavras-chave) e as informações de proveniência (editor, histórico de revisões,mudanças, fonte dos dados). Ampliam os recursos de busca e permitem a interoperabilidade entre diferentes sistemas.
+
+Fornecer informações descritivas de conjuntos de dados de forma explícita possibilita que agentes de software descubram automaticamente conjuntos de dados disponíveis na Web, e isto permite que pessoas compreendam a natureza do conjunto de dados e suas distribuições. [Os metadados descritivos podem incluir as seguintes características genéricas de um conjunto de dados](https://w3c.br/traducoes/DWBP-pt-br/#metadata):
+
+O **título e a descrição** do conjunto de dados.
+
+As **palavras-chave** que descrevem o conjunto de dados.
+
+A **data de publicação** do conjunto de dados.
+
+A **entidade responsável** (publicadora de dados) por disponibilizar o conjunto de dados.
+
+O **ponto de contato** para o conjunto de dados.
+
+A **cobertura espacial** do conjunto de dados.
+
+O **período temporal** coberto pelo conjunto de dados.
+
+A **data da última modificação** do conjunto de dados.
+
+Os **temas/categorias cobertos** por um conjunto de dados.
 
 * dicionário de dados
 
