@@ -67,8 +67,6 @@ A classificação proposta pelo Berners-Lee é a seguinte:
 
 ★ ★ ★ ★ ★ : link os seus dados a outros. Por exemplo, um RDF que tenha links para outros RDF.
 
-_“Se os dados não estão disponíveis num formato aberto e legível por máquina, eles não podem ser reutilizados.” (David Eaves/Opendata Charter - principles)_
-
 
 ### Formatos de dados abertos: tabular, csv, json
 
@@ -129,7 +127,7 @@ campo     campo
 
 * metadados
 
-ampliam os recursos de busca e permitem a interoperabilidade entre diferentes sistemas
+Apresentam a estrutura dos dados (chaves, índices, colunas), as informações sobre o conjunto de dados (título, autor,assuntos, palavras-chave) e as informações de proveniência (editor, histórico de revisões,mudanças, fonte dos dados). Ampliam os recursos de busca e permitem a interoperabilidade entre diferentes sistemas
 
 * dicionário de dados
 
