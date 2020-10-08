@@ -1,0 +1,11 @@
+dataset;BR;AL;CE;ES;GO;RS;SP
+compras;https://dados.gov.br/dataset/compras-publicas-do-governo-federal;;;compras;;;
+despesa;https://dados.gov.br/dataset/despesa-orcamentaria-da-uniao;http://dados.al.gov.br/dataset/despesas-do-governo-do-estado-de-alagoas;;despesas;https://dadosabertos.go.gov.br/dataset/empenhos-liquidacoes-e-pagamentos;https://dados.rs.gov.br/dataset/fee-despesas-realizadas-total-100881;
+remuneração;;;;remunerações;;;
+diárias;;;diárias;diárias e jetons;https://dadosabertos.go.gov.br/dataset/diarias;;
+convenios-saida;;;convenios;Convênios do Estado com Municípios;;;
+despesa-pessoal;https://dados.gov.br/dataset/despesa-de-pessoal-e-encargos-sociais-da-uniao;;;;;;
+receita;https://dados.gov.br/dataset/receita-orcamentaria-da-uniao;http://dados.al.gov.br/dataset/receitas-do-governo-do-estado-de-alagoas;;receitas;https://dadosabertos.go.gov.br/dataset/receitas-detalhadas;https://dados.rs.gov.br/dataset/fee-tributos-estaduais-arrecadacao-total-102426;
+divida-publica;https://dados.gov.br/dataset?q=d%C3%ADvida&tags=Finan%C3%A7as&organization=ministerio-da-fazenda-mf&sort=score+desc%2C+metadata_modified+desc;;;;;;https://portal.fazenda.sp.gov.br/acessoinformacao/Paginas/D%C3%ADvida-P%C3%BAblica.aspx
+transferências-impostos;https://dados.gov.br/dataset/transferencias-constitucionais-para-municipios;;;;https://dadosabertos.go.gov.br/dataset/repasses-a-municipios;;https://portal.fazenda.sp.gov.br/acessoinformacao/Paginas/Transfer%C3%AAncias-Constitucionais-a-Municipios.aspx
+restos-pagar;https://dados.gov.br/dataset/restos-a-pagar-da-uniao;;;Saldo de Restos a Pagar;;;
