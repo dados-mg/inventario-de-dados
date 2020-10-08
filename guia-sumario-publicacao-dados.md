@@ -127,7 +127,7 @@ campo     campo
 
 ## Documentação
 
-* metadados
+**metadados**
 
 É essencial fornecer informações que auxiliem pessoas e aplicações de computadores a compreenderem os dados, assim como outros aspectos importantes que descrevam o conjunto de dados ou a distribuição. Os metadados apresentam a estrutura dos dados (chaves, índices, colunas), as informações sobre o conjunto de dados (título, autor,assuntos, palavras-chave) e as informações de proveniência (editor, histórico de revisões,mudanças, fonte dos dados). Ampliam os recursos de busca e permitem a interoperabilidade entre diferentes sistemas.
 
@@ -178,6 +178,9 @@ b) as colunas de cada recurso (arquivo ou URL) que contém (~ schema),
 
 * como usar o datapackage: [guia rápido](https://www.youtube.com/watch?v=VrdPj28-L9g) e [workshop](https://www.youtube.com/watch?v=EFQmudQP4io&feature=youtu.be&t=998)
 
+* exemplo de datapackage utilizado no novo Portal de Dados Abertos: [no CKAN](http://dados.mg.gov.br/dataset/doacoes-comodatos-amigo-estado-mg/resource/ec8b233a-c89f-4927-be0e-e114d7d094c0); [no repositório específico do GitHub](https://github.com/dados-mg/doacoes-comodatos-amigo-estado-mg/blob/master/datapackage.json)
+
+  
 
 ### Controle de versão
 
@@ -185,8 +188,12 @@ b) as colunas de cada recurso (arquivo ou URL) que contém (~ schema),
 
 * [Curso da software carpentry](http://swcarpentry.github.io/git-novice/)
 
-* Validação automática contínua ([goodtables io](https://goodtables.io/)): checagem da exatidão da descrição lógica (datapackage.json) sobre o recurso físico (csv), a cada registro de alteração (commit) efetuado no reposiotório GitHub
+* exemplo de registros de alterações em datapackage no respectivo repositório do GitHub: https://github.com/dados-mg/doacoes-comodatos-amigo-estado-mg/commits/master
 
+
+**Validação automática contínua** ([goodtables io](https://goodtables.io/)): checagem da exatidão da descrição lógica (datapackage.json) sobre o recurso físico (csv), a cada registro de alteração (commit) efetuado no reposiotório GitHub
+
+* exemplo de histórico de validações: https://goodtables.io/github/dados-mg/doacoes-comodatos-amigo-estado-mg
 
 ## Dado aberto - correspondência das decisões de arquitetura do esquema de transformação e publicação dos dados aos pricípios e pressupostos normativos de dados abertos:
 
