@@ -13,7 +13,7 @@ vide [art. 8 § 3º, da LAI](http://www.planalto.gov.br/ccivil_03/_ato2011-2014/
 > atualização das informações disponíveis para acesso (VI)
 
 
-**[3 leis dos dados abertos]**(https://eaves.ca/2009/09/30/three-law-of-open-government-data/):
+**[3 leis dos dados abertos](https://eaves.ca/2009/09/30/three-law-of-open-government-data/)**:
 
 _1. Se os dados não podem ser encontrados ou indexados na Web, eles não existem._
 
@@ -23,7 +23,7 @@ _2. Se os dados não estão disponíveis em um formato aberto e legível por má
 _3. Se dispositivos legais não permitem que os dados sejam partilhados, eles não são úteis_
 
 
-**[princípios]**(https://public.resource.org/8_principles.html):
+**[princípios](https://public.resource.org/8_principles.html)**:
 
 1. Completitude: disponibilização de todos os dados públicos, sem limitações de privacidade, segurança ou controle de acesso;
 
@@ -68,7 +68,7 @@ A classificação proposta pelo Berners-Lee é a seguinte:
 ★ ★ ★ ★ ★ : link os seus dados a outros. Por exemplo, um RDF que tenha links para outros RDF.
 
 
-### Formatos de dados abertos: tabular, csv, json
+## Formatos de dados abertos: tabular, csv, json
 
 Os formatos legíveis por máquina mais comuns são: CSV, XML, JSON, GeoJSON, XLS.
 
@@ -156,7 +156,7 @@ Os **temas/categorias cobertos** por um conjunto de dados.
 * [Decreto Federal 8777/2016: art. 2º, IV](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8777.htm#art2): formato aberto implica que a especificação esteja documentada publicamente
 
 
-### Decisões de arquitetura tomadas pela Diretoria de Transparência no processo de abertura e publicação dos dados: 
+## Decisões de arquitetura tomadas pela Diretoria de Transparência no processo de abertura e publicação dos dados: 
 
 Adoção do **padrão Frictionless Data**, **controle de versão dos conjuntos de dados** em repositórios abertos no GitHub e **validação automática dos dados** via goodtables (serviço oferecido pela comunidade, como o datapackage creator da Frictionless Data).
 
@@ -194,6 +194,7 @@ b) as colunas de cada recurso (arquivo ou URL) que contém (~ schema),
 **Validação automática contínua** ([goodtables io](https://goodtables.io/)): checagem da exatidão da descrição lógica (datapackage.json) sobre o recurso físico (csv), a cada registro de alteração (commit) efetuado no reposiotório GitHub
 
 * exemplo de histórico de validações: https://goodtables.io/github/dados-mg/doacoes-comodatos-amigo-estado-mg
+
 
 ## Dado aberto - correspondência das decisões de arquitetura do esquema de transformação e publicação dos dados aos pricípios e pressupostos normativos de dados abertos:
 
