@@ -64,7 +64,7 @@ Serve para garantir a integridade da representação de todos os caracteres e qu
 
 #### 5) Formato de data 
 
-É preferível utilizar o padrão ISO: __YYYYMMDD__. Assim evita-se a exibição de números estranhos, como por exemplo, [os exibidos no excel](https://github.com/transparencia-mg/lista-utilidades#formata%C3%A7%C3%A3o-de-c%C3%A9lulas-com-informa%C3%A7%C3%A3o-de-data-no-excell). 
+É preferível utilizar o padrão __YYYY-MM-DD__, reconhecido como _date default_ pelo goodtables.io . Assim evita-se a exibição de números estranhos, como por exemplo, [os exibidos no excel](https://github.com/transparencia-mg/lista-utilidades#formata%C3%A7%C3%A3o-de-c%C3%A9lulas-com-informa%C3%A7%C3%A3o-de-data-no-excell). 
 __(inserir imagem)__
 
 
@@ -74,7 +74,9 @@ __(inserir imagem)__
 
 * Delimitadores de colunas são ponto e vírgula; 
 
-* Delimitadores de algarismos em células com valores numéricos são vírgulas (em vez de ponto, como seria o padrão estrangeiro); 
+* Delimitadores de algarismos em células com valores numéricos são vírgulas (em vez de ponto, como seria o padrão estrangeiro) = exige a atribuição do valor ',' para a propriedade decimalChar no schema.json;
+
+* Não usar ponto como separador de milhar (e/ou reformatar as células do tipo 'número' para 'geral' no excell)
 
 ````
 
