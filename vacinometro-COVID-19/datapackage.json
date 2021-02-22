@@ -1,0 +1,130 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "vacinometro",
+      "path": "xlsx_vacinas.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "URS",
+            "type": "string",
+            "format": "default",
+            "title": "Unidade Regional de Saúde",
+            "description": "Divisão administrativa da SES à qual pertence cada município"
+          },
+          {
+            "name": "MICRO",
+            "type": "string",
+            "format": "default",
+            "title": "Microrregião de saúde",
+            "description": "Divisão territorial do Plano Diretor de Regionalização da SES à qual pertence cada município"
+          },
+          {
+            "name": "MACRO",
+            "type": "string",
+            "format": "default",
+            "title": "Macrorregião de saúde",
+            "description": "Divisão territorial do Plano Diretor de Regionalização da SES à qual pertence de cada município"
+          },
+          {
+            "name": "CodigoIBGE",
+            "type": "integer",
+            "format": "default",
+            "title": "Código IBGE",
+            "description": "Código IBGE de cada município"
+          },
+          {
+            "name": "Data",
+            "type": "integer",
+            "format": "default",
+            "title": "Data de vacinação",
+            "description": "Data do registro da vacinação"
+          },
+          {
+            "name": "Total acumulado de vacinas aplicadas no grupo INDÍGENAS ALDEADOS (APENAS PRIMEIRA DOSE - D1)",
+            "type": "integer",
+            "format": "default",
+            "title": "Total acumulado de vacinas aplicadas no grupo INDÍGENAS ALDEADOS (APENAS PRIMEIRA DOSE - D1)",
+            "description": "Total acumulado de vacinas aplicadas no grupo INDÍGENAS ALDEADOS (APENAS PRIMEIRA DOSE - D1)"
+          },
+          {
+            "name": "Total acumulado de vacinas aplicadas no grupo INDÍGENAS ALDEADOS (SEGUNDA DOSE - D2)",
+            "type": "integer",
+            "format": "default",
+            "title": "Total acumulado de vacinas aplicadas no grupo INDÍGENAS ALDEADOS (SEGUNDA DOSE - D2)",
+            "description": "Total acumulado de vacinas aplicadas no grupo INDÍGENAS ALDEADOS (SEGUNDA DOSE - D2)"
+          },
+          {
+            "name": "Total acumulado de vacinas aplicadas no grupo IDOSOS EM ILPI (APENAS PRIMEIRA DOSE - D1)",
+            "type": "integer",
+            "format": "default",
+            "title": "Total acumulado de vacinas aplicadas no grupo IDOSOS EM ILPI (APENAS PRIMEIRA DOSE - D1)",
+            "description": "Total acumulado de vacinas aplicadas no grupo IDOSOS EM ILPI (APENAS PRIMEIRA DOSE - D1)"
+          },
+          {
+            "name": "Total acumulado de vacinas aplicadas no grupo IDOSOS EM ILPI (SEGUNDA DOSE - D2)",
+            "type": "integer",
+            "format": "default",
+            "title": "Total acumulado de vacinas aplicadas no grupo IDOSOS EM ILPI (SEGUNDA DOSE - D2)",
+            "description": "Total acumulado de vacinas aplicadas no grupo IDOSOS EM ILPI (SEGUNDA DOSE - D2)"
+          },
+          {
+            "name": "Total acumulado de vacinas aplicadas no grupo PESSOAS COM DEFICIÊNCIA EM RESIDÊNCIAS INCLUSIVAS (APENAS PRIMEIRA DOSE - D1)",
+            "type": "integer",
+            "format": "default",
+            "title": "Total acumulado de vacinas aplicadas no grupo PESSOAS COM DEFICIÊNCIA EM RESIDÊNCIAS INCLUSIVAS (APENAS PRIMEIRA DOSE - D1)",
+            "description": "Total acumulado de vacinas aplicadas no grupo PESSOAS COM DEFICIÊNCIA EM RESIDÊNCIAS INCLUSIVAS (APENAS PRIMEIRA DOSE - D1)"
+          },
+          {
+            "name": "Total acumulado de vacinas aplicadas no grupo PESSOAS COM DEFICIÊNCIA EM RESIDÊNCIAS INCLUSIVAS (SEGUNDA DOSE - D2)",
+            "type": "integer",
+            "format": "default",
+            "title": "Total acumulado de vacinas aplicadas no grupo PESSOAS COM DEFICIÊNCIA EM RESIDÊNCIAS INCLUSIVAS (SEGUNDA DOSE - D2)",
+            "description": "Total acumulado de vacinas aplicadas no grupo PESSOAS COM DEFICIÊNCIA EM RESIDÊNCIAS INCLUSIVAS (SEGUNDA DOSE - D2)"
+          },
+          {
+            "name": "Total acumulado de vacinas aplicadas no grupo PROFISSIONAIS DE SAÚDE (APENAS PRIMEIRA DOSE - D1)",
+            "type": "integer",
+            "format": "default",
+            "title": "Total acumulado de vacinas aplicadas no grupo PROFISSIONAIS DE SAÚDE (APENAS PRIMEIRA DOSE - D1)",
+            "description": "Total acumulado de vacinas aplicadas no grupo PROFISSIONAIS DE SAÚDE (APENAS PRIMEIRA DOSE - D1)"
+          },
+          {
+            "name": "Total acumulado de vacinas aplicadas no grupo PROFISSIONAIS DE SAÚDE (SEGUNDA DOSE - D2)",
+            "type": "integer",
+            "format": "default",
+            "title": "Total acumulado de vacinas aplicadas no grupo PROFISSIONAIS DE SAÚDE (SEGUNDA DOSE - D2)",
+            "description": "Total acumulado de vacinas aplicadas no grupo PROFISSIONAIS DE SAÚDE (SEGUNDA DOSE - D2)"
+          }
+        ]
+      },
+      "description": "Contém dados sobre a aplicação de vacinas contra o novo coronavírus, para os grupos prioritários definidos, por município e região de residência, além da data de aplicação\n\n",
+      "title": "Vacinômetro",
+      "format": "xlsx"
+    }
+  ],
+  "keywords": [
+    "saude",
+    "vacina",
+    "COVID-19"
+  ],
+  "name": "vacinometro-covid-19",
+  "title": "Vacinômetro COVID-19",
+  "description": "Contém informações sobre aplicação das doses da vacina contra o novo coronavírus.\n\n",
+  "homepage": "https://coronavirus.saude.mg.gov.br/vacinometro",
+  "contributors": [
+    {
+      "title": "Secretaria de Estado de Saúde",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
+}
