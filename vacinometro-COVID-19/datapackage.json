@@ -2,8 +2,8 @@
   "profile": "tabular-data-package",
   "resources": [
     {
-      "name": "vacinometro",
-      "path": "xlsx_vacinas.csv",
+      "name": "vacinas",
+      "path": "data/vacinas.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
@@ -43,66 +43,31 @@
             "description": "Data do registro da vacinação"
           },
           {
-            "name": "Total acumulado de vacinas aplicadas no grupo INDÍGENAS ALDEADOS (APENAS PRIMEIRA DOSE - D1)",
-            "type": "integer",
+            "name": "Grupo",
+            "type": "string",
             "format": "default",
-            "title": "Total acumulado de vacinas aplicadas no grupo INDÍGENAS ALDEADOS (APENAS PRIMEIRA DOSE - D1)",
-            "description": "Total acumulado de vacinas aplicadas no grupo INDÍGENAS ALDEADOS (APENAS PRIMEIRA DOSE - D1)"
+            "title": "Grupo Prioritário",
+            "description": "Grupo elegido para prioridade na vacinação segundo diretrizes e normativas federais"
           },
           {
-            "name": "Total acumulado de vacinas aplicadas no grupo INDÍGENAS ALDEADOS (SEGUNDA DOSE - D2)",
-            "type": "integer",
+            "name": "Dose",
+            "type": "string",
             "format": "default",
-            "title": "Total acumulado de vacinas aplicadas no grupo INDÍGENAS ALDEADOS (SEGUNDA DOSE - D2)",
-            "description": "Total acumulado de vacinas aplicadas no grupo INDÍGENAS ALDEADOS (SEGUNDA DOSE - D2)"
+            "title": "Dose da vacina",
+            "description": "Discrimina a qual dose se refere esta vacina, a primeira ou a segunda"
           },
           {
-            "name": "Total acumulado de vacinas aplicadas no grupo IDOSOS EM ILPI (APENAS PRIMEIRA DOSE - D1)",
-            "type": "integer",
+            "name": "Doses Aplicadas",
+            "type": "string",
             "format": "default",
-            "title": "Total acumulado de vacinas aplicadas no grupo IDOSOS EM ILPI (APENAS PRIMEIRA DOSE - D1)",
-            "description": "Total acumulado de vacinas aplicadas no grupo IDOSOS EM ILPI (APENAS PRIMEIRA DOSE - D1)"
-          },
-          {
-            "name": "Total acumulado de vacinas aplicadas no grupo IDOSOS EM ILPI (SEGUNDA DOSE - D2)",
-            "type": "integer",
-            "format": "default",
-            "title": "Total acumulado de vacinas aplicadas no grupo IDOSOS EM ILPI (SEGUNDA DOSE - D2)",
-            "description": "Total acumulado de vacinas aplicadas no grupo IDOSOS EM ILPI (SEGUNDA DOSE - D2)"
-          },
-          {
-            "name": "Total acumulado de vacinas aplicadas no grupo PESSOAS COM DEFICIÊNCIA EM RESIDÊNCIAS INCLUSIVAS (APENAS PRIMEIRA DOSE - D1)",
-            "type": "integer",
-            "format": "default",
-            "title": "Total acumulado de vacinas aplicadas no grupo PESSOAS COM DEFICIÊNCIA EM RESIDÊNCIAS INCLUSIVAS (APENAS PRIMEIRA DOSE - D1)",
-            "description": "Total acumulado de vacinas aplicadas no grupo PESSOAS COM DEFICIÊNCIA EM RESIDÊNCIAS INCLUSIVAS (APENAS PRIMEIRA DOSE - D1)"
-          },
-          {
-            "name": "Total acumulado de vacinas aplicadas no grupo PESSOAS COM DEFICIÊNCIA EM RESIDÊNCIAS INCLUSIVAS (SEGUNDA DOSE - D2)",
-            "type": "integer",
-            "format": "default",
-            "title": "Total acumulado de vacinas aplicadas no grupo PESSOAS COM DEFICIÊNCIA EM RESIDÊNCIAS INCLUSIVAS (SEGUNDA DOSE - D2)",
-            "description": "Total acumulado de vacinas aplicadas no grupo PESSOAS COM DEFICIÊNCIA EM RESIDÊNCIAS INCLUSIVAS (SEGUNDA DOSE - D2)"
-          },
-          {
-            "name": "Total acumulado de vacinas aplicadas no grupo PROFISSIONAIS DE SAÚDE (APENAS PRIMEIRA DOSE - D1)",
-            "type": "integer",
-            "format": "default",
-            "title": "Total acumulado de vacinas aplicadas no grupo PROFISSIONAIS DE SAÚDE (APENAS PRIMEIRA DOSE - D1)",
-            "description": "Total acumulado de vacinas aplicadas no grupo PROFISSIONAIS DE SAÚDE (APENAS PRIMEIRA DOSE - D1)"
-          },
-          {
-            "name": "Total acumulado de vacinas aplicadas no grupo PROFISSIONAIS DE SAÚDE (SEGUNDA DOSE - D2)",
-            "type": "integer",
-            "format": "default",
-            "title": "Total acumulado de vacinas aplicadas no grupo PROFISSIONAIS DE SAÚDE (SEGUNDA DOSE - D2)",
-            "description": "Total acumulado de vacinas aplicadas no grupo PROFISSIONAIS DE SAÚDE (SEGUNDA DOSE - D2)"
+            "title": "Quantidade de doses aplicadas",
+            "description": "Quantidade de doses aplicadas"
           }
         ]
       },
       "description": "Contém dados sobre a aplicação de vacinas contra o novo coronavírus, para os grupos prioritários definidos, por município e região de residência, além da data de aplicação\n\n",
       "title": "Vacinômetro",
-      "format": "xlsx"
+      "format": "csv"
     }
   ],
   "keywords": [
